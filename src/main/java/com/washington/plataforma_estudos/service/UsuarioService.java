@@ -39,14 +39,6 @@ public class UsuarioService {
         if (!passwordEncoder.matches(senha,usuario.getSenha())){
             throw new IllegalArgumentException("Email ou senha inválidos.");
         }
-
         return usuario;
-
-
-
-
     }
-
-
-
 }
