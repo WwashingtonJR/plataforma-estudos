@@ -33,5 +33,8 @@ public class TrilhaController {
 
     }
 
-
+    @GetMapping("/admin/teste")
+    public String testeAdmin() {
+        return "Acesso de admin liberado!";
+    }
 }
