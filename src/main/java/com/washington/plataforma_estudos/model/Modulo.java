@@ -1,6 +1,6 @@
 package com.washington.plataforma_estudos.model;
 
-
+import com.fasterxml.jackson.annotation.JsonProperty; // NOVO
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,7 +11,6 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-
 public class Modulo {
 
     @Id
@@ -26,8 +25,6 @@ public class Modulo {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "trilha_id", nullable = false)
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private Trilha trilha;
-
-
-
 }

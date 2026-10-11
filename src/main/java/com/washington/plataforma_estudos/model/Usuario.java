@@ -1,6 +1,6 @@
 package com.washington.plataforma_estudos.model;
 
-
+import com.fasterxml.jackson.annotation.JsonProperty; // NOVO
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,8 +11,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-
 public class Usuario {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
@@ -24,6 +24,7 @@ public class Usuario {
     private String email;
 
     @Column(nullable = false)
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String senha;
 
     @Column(nullable = false)
@@ -31,5 +32,4 @@ public class Usuario {
     private Papel papel;
 
     private String instituicao;
-
 }
