@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# testes locais da API (têm e-mail e senha de teste)
+login.json
+cadastro.json
+perfil.json
+trilha.json

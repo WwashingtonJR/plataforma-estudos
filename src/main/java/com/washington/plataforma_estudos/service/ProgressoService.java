@@ -7,6 +7,7 @@ import com.washington.plataforma_estudos.repository.ProgressoRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Service
 public class ProgressoService {
@@ -32,5 +33,12 @@ public class ProgressoService {
 
     public long contarConcluidosNoModulo(Integer usuarioId, Integer moduloId) {
         return progressoRepository.countByUsuarioIdAndVideoModuloIdAndConcluidoTrue(usuarioId, moduloId);
+    }
+
+    public List<Integer> listarIdsConcluidos(Integer usuarioId) {
+        return progressoRepository.findByUsuarioIdAndConcluidoTrue(usuarioId)
+                .stream()
+                .map(p -> p.getVideo().getId())
+                .toList();
     }
 }
