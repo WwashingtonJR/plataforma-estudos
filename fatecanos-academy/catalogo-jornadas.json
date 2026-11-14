@@ -1,0 +1,1747 @@
+{
+  "source": "https://jornadadevheroi.com/",
+  "collectedAt": "2026-11-14T19:49:30.073Z",
+  "tracks": [
+    {
+      "id": "backend",
+      "name": "Back End",
+      "order": 1,
+      "courses": [
+        {
+          "id": "be-logica",
+          "order": 1,
+          "topic": "Lógica de Programação",
+          "title": "Curso de Algoritmos e Lógica de Programação",
+          "author": "Gustavo Guanabara",
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "id": "be-java",
+          "order": 2,
+          "topic": "Java bem firme",
+          "title": "Maratona Java Virado no Jiraya",
+          "author": "DevDojo",
+          "url": "https://www.youtube.com/playlist?list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW"
+        },
+        {
+          "id": "be-git",
+          "order": 3,
+          "topic": "Git e GitHub",
+          "title": "Curso gratuito Git e GitHub",
+          "author": "Tiago Matos",
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "id": "be-sql",
+          "order": 4,
+          "topic": "SQL",
+          "title": "Curso de SQL com MySQL (Completo)",
+          "author": "Otávio Miranda",
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "id": "be-apis",
+          "order": 5,
+          "topic": "APIs REST",
+          "title": "Curso de Testes de API Rest",
+          "author": "Julio de Lima",
+          "url": "https://www.youtube.com/playlist?list=PLf8x7B3nFTl17WeEVj405tHlstiq1kNBX"
+        },
+        {
+          "id": "be-spring",
+          "order": 6,
+          "topic": "Spring Boot",
+          "title": "Spring Boot Essentials 2",
+          "author": "DevDojo",
+          "url": "https://www.youtube.com/playlist?list=PL62G310vn6nFBIxp6ZwGnm8xMcGE3VA5H"
+        },
+        {
+          "id": "be-docker",
+          "order": 7,
+          "topic": "Docker Essencial",
+          "title": "Docker Essencial",
+          "author": "TechEduca",
+          "url": "https://www.youtube.com/playlist?list=PLViOsriojeLrdw5VByn96gphHFxqH3O_N"
+        },
+        {
+          "id": "be-aws",
+          "order": 8,
+          "topic": "AWS",
+          "title": "AWS White Belt",
+          "author": "DevDojo",
+          "url": "https://www.youtube.com/playlist?list=PL62G310vn6nHwfC31Q2hqh-3nO-6Rceyd"
+        }
+      ]
+    },
+    {
+      "id": "frontend",
+      "name": "Front End",
+      "order": 2,
+      "courses": [
+        {
+          "id": "fe-html-css",
+          "order": 1,
+          "topic": "HTML + CSS",
+          "title": "Curso Completo de HTML e CSS",
+          "author": "Matheus Battisti",
+          "url": "https://youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP"
+        },
+        {
+          "id": "fe-logica",
+          "order": 2,
+          "topic": "Lógica de Programação",
+          "title": "Curso de Algoritmos e Lógica de Programação",
+          "author": "Gustavo Guanabara",
+          "url": "https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "id": "fe-git",
+          "order": 3,
+          "topic": "Git + GitHub",
+          "title": "Curso gratuito Git e GitHub",
+          "author": "Tiago Matos",
+          "url": "https://youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "id": "fe-javascript",
+          "order": 4,
+          "topic": "JavaScript",
+          "title": "Curso de JavaScript Completo",
+          "author": "Matheus Battisti",
+          "url": "https://youtube.com/playlist?list=PLnDvRpP8BneysKU8KivhnrVaKpILD3gZ6"
+        },
+        {
+          "id": "fe-typescript",
+          "order": 5,
+          "topic": "TypeScript",
+          "title": "Curso de TypeScript",
+          "author": "Glaucia Lemos",
+          "url": "https://youtube.com/playlist?list=PL9tY_tDo_Q0DOAzTaPnWYsryfNLsz1K6U"
+        },
+        {
+          "id": "fe-api",
+          "order": 6,
+          "topic": "Consumo de API",
+          "title": "Consumo de API com JavaScript",
+          "author": "Matheus Battisti",
+          "url": "https://youtube.com/playlist?list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP"
+        },
+        {
+          "id": "fe-react",
+          "order": 7,
+          "topic": "React",
+          "title": "Curso de React Completo",
+          "author": "Matheus Battisti",
+          "url": "https://youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO"
+        },
+        {
+          "id": "fe-uiux",
+          "order": 8,
+          "topic": "UI / UX",
+          "title": "UX/UI Design de Interface",
+          "author": "Coursera",
+          "url": "https://www.coursera.org/learn/ux-ui-design-de-interface"
+        },
+        {
+          "id": "fe-testes",
+          "order": 9,
+          "topic": "Testes",
+          "title": "Testes no Front End",
+          "author": "Escola Front-end",
+          "url": "https://youtube.com/playlist?list=PLRVYQGMz5x2Y4NhqFI48usszCOtfPELM2"
+        }
+      ]
+    },
+    {
+      "id": "fullstack",
+      "name": "Full Stack",
+      "order": 3,
+      "courses": [
+        {
+          "id": "fs-html-css",
+          "order": 1,
+          "topic": "HTML e CSS",
+          "title": "Curso Completo de HTML e CSS",
+          "author": "Daniel Tapias Morales",
+          "url": "https://www.youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP"
+        },
+        {
+          "id": "fs-git",
+          "order": 2,
+          "topic": "Git e GitHub",
+          "title": "Curso gratuito Git e GitHub",
+          "author": "Tiago Matos",
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "id": "fs-javascript",
+          "order": 3,
+          "topic": "JavaScript",
+          "title": "Curso de JavaScript Completo",
+          "author": "Matheus Battisti",
+          "url": "https://www.youtube.com/playlist?list=PLnDvRpP8BneysKU8KivhnrVaKpILD3gZ6"
+        },
+        {
+          "id": "fs-react",
+          "order": 4,
+          "topic": "React",
+          "title": "Curso de React Completo",
+          "author": "Matheus Battisti",
+          "url": "https://www.youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO"
+        },
+        {
+          "id": "fs-node",
+          "order": 5,
+          "topic": "Node.js",
+          "title": "Curso de Node.js",
+          "author": "Rocketseat",
+          "url": "https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B"
+        },
+        {
+          "id": "fs-typescript-node",
+          "order": 6,
+          "topic": "TypeScript em Node",
+          "title": "Curso completo de Typescript em NodeJs",
+          "author": "Glaucia Lemos",
+          "url": "https://www.youtube.com/playlist?list=PL9tY_tDo_Q0DOAzTaPnWYsryfNLsz1K6U"
+        },
+        {
+          "id": "fs-sql",
+          "order": 7,
+          "topic": "SQL com MySQL",
+          "title": "Curso de SQL com MySQL (Completo)",
+          "author": "Otávio Miranda",
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "id": "fs-api-rest",
+          "order": 8,
+          "topic": "API REST com Node e TS",
+          "title": "Curso de API Rest, Node e Typescript",
+          "author": "Matheus Battisti",
+          "url": "https://www.youtube.com/playlist?list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP"
+        },
+        {
+          "id": "fs-docker",
+          "order": 9,
+          "topic": "Docker Essencial",
+          "title": "Docker Essencial",
+          "author": "TechEduca",
+          "url": "https://www.youtube.com/playlist?list=PLViOsriojeLrdw5VByn96gphHFxqH3O_N"
+        },
+        {
+          "id": "fs-projeto",
+          "order": 10,
+          "topic": "Projeto Fullstack",
+          "title": "Curso Projeto Fullstack",
+          "author": "Felipão",
+          "url": "https://www.youtube.com/playlist?list=PL45Hr6NzteIJQyvk6v0T78Ye8IsGm0mYS"
+        }
+      ]
+    },
+    {
+      "id": "datascience",
+      "name": "Ciência de Dados",
+      "order": 4,
+      "courses": [
+        {
+          "id": "ds-python",
+          "order": 1,
+          "topic": "Python",
+          "title": "Curso de Python - Gustavo Guanabara",
+          "author": "Gustavo Guanabara",
+          "url": "https://www.youtube.com/playlist?list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0"
+        },
+        {
+          "id": "ds-git",
+          "order": 2,
+          "topic": "Git e GitHub",
+          "title": "Curso gratuito Git e GitHub",
+          "author": "Tiago Matos",
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "id": "ds-sql",
+          "order": 3,
+          "topic": "SQL com MySQL",
+          "title": "Curso de SQL com MySQL (Completo)",
+          "author": "Otávio Miranda",
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "id": "ds-numpy",
+          "order": 4,
+          "topic": "Analista de Dados",
+          "title": "Curso Analista de Dados Python / Numpy",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PL3Fmwz_E1hXRWxIkP843DiDf0ZeqgftTy"
+        },
+        {
+          "id": "ds-ml-python",
+          "order": 5,
+          "topic": "Python para ML",
+          "title": "Curso Python para Machine Learning e Análise de Dados",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLyqOvdQmGdTR46HUxDA6Ymv4DGsIjvTQ-"
+        },
+        {
+          "id": "ds-powerbi",
+          "order": 6,
+          "topic": "Power BI",
+          "title": "Curso de Power BI - Do Básico ao Profissional",
+          "author": "Prime Cursos do Brasil",
+          "url": "https://www.youtube.com/playlist?list=PLFKhhNd35zq90tdc3PYpx4IA-SoxSNlmN"
+        },
+        {
+          "id": "ds-intro",
+          "order": 7,
+          "topic": "Intro à Ciência de Dados",
+          "title": "Introdução à Ciência de Dados 3.0",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLlDg_wRHtbjLWfS-rGguPi1qNetGQ6Ogr"
+        },
+        {
+          "id": "ds-estatidados",
+          "order": 8,
+          "topic": "EstaTiDados",
+          "title": "Trilha EstaTiDados – Data Science",
+          "author": "EstaTiDados",
+          "url": "https://www.youtube.com/playlist?list=PLjdDBZW3EmXe6hO2Rt5Q9I5wzRZ7j7K8P"
+        },
+        {
+          "id": "ds-sklearn",
+          "order": 9,
+          "topic": "Scikit-Learn",
+          "title": "Domine Machine Learning com Scikit-Learn e Google Colab",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PL8PS-tykU-MiZtXZAYjfSW5-2WN4FwCGA"
+        },
+        {
+          "id": "ds-ia",
+          "order": 10,
+          "topic": "Intro à IA",
+          "title": "Curso Grátis de Inteligência Artificial - Módulo 01",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dm24MhlWJYiR_Rm7TFtvs6S"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "Inteligência Artificial",
+      "order": 5,
+      "courses": [
+        {
+          "id": "ai-fundamentos",
+          "order": 1,
+          "topic": "Fundamentos de IA",
+          "title": "Curso de Fundamentos de Inteligência Artificial",
+          "author": "Gustavo Guanabara",
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dm24MhlWJYiR_Rm7TFtvs6S"
+        },
+        {
+          "id": "ai-python",
+          "order": 2,
+          "topic": "Python para IA",
+          "title": "Curso Gratuito de Python para IA",
+          "author": "Wikki Brasil",
+          "url": "https://www.youtube.com/playlist?list=PLqurcgxgZi_hIxsdslFpTWSu5aRJFjve7"
+        },
+        {
+          "id": "ai-estatistica",
+          "order": 3,
+          "topic": "Estatística para ML",
+          "title": "Estatística para Machine Learning",
+          "author": "Jhonatan Teixeira Rios",
+          "url": "https://www.youtube.com/playlist?list=PLqGk0p_9aqwlwpKqrQk2t0vR7NQN-k0N5"
+        },
+        {
+          "id": "ai-ml",
+          "order": 4,
+          "topic": "Machine Learning",
+          "title": "Curso Completo de Machine Learning",
+          "author": "Universo Discreto",
+          "url": "https://www.youtube.com/playlist?list=PL-t7zzWJWPtzhZtI-bWWHFtCfxtjmBdIW"
+        },
+        {
+          "id": "ai-numpy",
+          "order": 5,
+          "topic": "Analista de Dados — Numpy",
+          "title": "Curso Analista de Dados Python / Numpy",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PL3Fmwz_E1hXRWxIkP843DiDf0ZeqgftTy"
+        },
+        {
+          "id": "ai-deep",
+          "order": 6,
+          "topic": "Deep Learning com PyTorch",
+          "title": "Curso de Deep Learning — Redes Neurais com PyTorch",
+          "author": "Programação Dinâmica",
+          "url": "https://www.youtube.com/playlist?list=PL5TJqBvpXQv6cd1kade4kjwr8_QQj8j3k"
+        },
+        {
+          "id": "ai-nlp",
+          "order": 7,
+          "topic": "NLP com Python",
+          "title": "Processamento de Linguagem Natural com Python",
+          "author": "sentdex",
+          "url": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL"
+        },
+        {
+          "id": "ai-mlops",
+          "order": 8,
+          "topic": "MLOps Zoomcamp",
+          "title": "Curso MLOps Zoomcamp",
+          "author": "DataTalksClub",
+          "url": "https://www.youtube.com/playlist?list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK"
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "name": "Avançado",
+      "order": 6,
+      "courses": [
+        {
+          "id": "av-linux",
+          "order": 1,
+          "topic": "Linux",
+          "title": "Curso de Linux",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLnDvRpP8BnezDTtL8lm6C-UOJZn-xzALH"
+        },
+        {
+          "id": "av-sql",
+          "order": 2,
+          "topic": "SQL",
+          "title": "Curso de SQL com MySQL (Completo)",
+          "author": "Otávio Miranda",
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "id": "av-nosql",
+          "order": 3,
+          "topic": "NoSQL",
+          "title": "Curso de NoSQL",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLfvOpw8k80WpKTtloa7fMbfPWL7D6X5cC"
+        },
+        {
+          "id": "av-api-test",
+          "order": 4,
+          "topic": "Teste de API",
+          "title": "Curso de Testes de API Rest",
+          "author": "Julio de Lima",
+          "url": "https://www.youtube.com/playlist?list=PLf8x7B3nFTl17WeEVj405tHlstiq1kNBX"
+        },
+        {
+          "id": "av-aws",
+          "order": 5,
+          "topic": "AWS",
+          "title": "AWS White Belt",
+          "author": "DevDojo",
+          "url": "https://www.youtube.com/playlist?list=PL62G310vn6nHwfC31Q2hqh-3nO-6Rceyd"
+        },
+        {
+          "id": "av-docker",
+          "order": 6,
+          "topic": "Docker",
+          "title": "Docker Essencial",
+          "author": "TechEduca",
+          "url": "https://www.youtube.com/playlist?list=PLViOsriojeLrdw5VByn96gphHFxqH3O_N"
+        },
+        {
+          "id": "av-gh-actions",
+          "order": 7,
+          "topic": "GitHub Actions",
+          "title": "GitHub Actions - CI/CD",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=df_WMXk7JxE"
+        },
+        {
+          "id": "av-terraform",
+          "order": 8,
+          "topic": "Terraform",
+          "title": "Curso de Terraform",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLWQmZVQayUUIgSmOj3GPH2BJcn0hOzIaP"
+        },
+        {
+          "id": "av-k8s",
+          "order": 9,
+          "topic": "Kubernetes",
+          "title": "Curso de Kubernetes",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLnOICPAPShyTwuLit7vP6In9kETQ0BSnQ"
+        },
+        {
+          "id": "av-kafka",
+          "order": 10,
+          "topic": "Apache Kafka",
+          "title": "Curso de Apache Kafka",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PL5aY_NrL1rjt_AZxj11kQjiTNLGg4ZaZA"
+        }
+      ]
+    },
+    {
+      "id": "math",
+      "name": "O Louco Matemático",
+      "order": 7,
+      "courses": [
+        {
+          "id": "mt-basica",
+          "order": 1,
+          "topic": "Matemática Básica",
+          "title": "Matemática Básica",
+          "author": "Equaciona Com Paulo Pereira",
+          "url": "https://www.youtube.com/playlist?list=PLTPg64KdGgYgFpOFt2TETLdEuBB4fvxxf"
+        },
+        {
+          "id": "mt-geo-func",
+          "order": 2,
+          "topic": "Geometria & Funções",
+          "title": "Geometria e Funções",
+          "author": "Equaciona Com Paulo Pereira",
+          "url": "https://www.youtube.com/playlist?list=PLTPg64KdGgYhy8stGM4z2_Hzb3zTfA77Z"
+        },
+        {
+          "id": "mt-logica",
+          "order": 3,
+          "topic": "Lógica & Raciocínio",
+          "title": "Lógica matemática e raciocínio lógico",
+          "author": "Professor Ferretto",
+          "url": "https://www.youtube.com/playlist?list=PLrDis1u8cwtYOH7vZU3vghV0GpLuRpLHA"
+        },
+        {
+          "id": "mt-discreta",
+          "order": 4,
+          "topic": "Matemática Discreta",
+          "title": "Matemática Discreta",
+          "author": "Univesp",
+          "url": "https://www.youtube.com/playlist?list=PLdFLgROzdbuIf5UsBA_VxTqDVDihXlIYN"
+        },
+        {
+          "id": "mt-combinatoria",
+          "order": 5,
+          "topic": "Análise Combinatória",
+          "title": "Curso Completo de Análise Combinatória",
+          "author": "Professor Ferretto",
+          "url": "https://www.youtube.com/playlist?list=PLzvYXXKDUPquxp8QqYzd-_O5tzbC4HaJl"
+        },
+        {
+          "id": "mt-precalc",
+          "order": 6,
+          "topic": "Pré-Cálculo",
+          "title": "Pré-Cálculo",
+          "author": "Possi Matemática",
+          "url": "https://www.youtube.com/playlist?list=PLa_2246N48_rIbheR_al4oqeFCP8dHoQR"
+        },
+        {
+          "id": "mt-calc1",
+          "order": 7,
+          "topic": "Cálculo 1",
+          "title": "Cálculo 1",
+          "author": "Equaciona Com Paulo Pereira",
+          "url": "https://www.youtube.com/playlist?list=PLTPg64KdGgYhACfQUtMf3CuhWOfLoTf_a"
+        },
+        {
+          "id": "mt-algebra-linear",
+          "order": 8,
+          "topic": "Álgebra Linear",
+          "title": "Álgebra Linear",
+          "author": "Lhaylla Crissaff",
+          "url": "https://www.youtube.com/playlist?list=PLO3hBdfBc4pFef1zn1oZyYXLomL9MiX-C"
+        },
+        {
+          "id": "mt-estatistica",
+          "order": 9,
+          "topic": "Estatística & Probabilidade",
+          "title": "Curso de Estatística e Probabilidade",
+          "author": "Me Salva!",
+          "url": "https://www.youtube.com/playlist?list=PLA0675987914E07BB"
+        },
+        {
+          "id": "mt-grafos",
+          "order": 10,
+          "topic": "Teoria de Grafos",
+          "title": "Teoria de Grafos",
+          "author": "Bruno Holanda",
+          "url": "https://www.youtube.com/playlist?list=PLrOyM49ctTx-xtyVeuO7ylclgXHd4ws9a"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "GameDev",
+      "order": 8,
+      "courses": [
+        {
+          "id": "gd-logica",
+          "order": 1,
+          "topic": "Lógica de Programação",
+          "title": "Curso de Algoritmos e Lógica de Programação",
+          "author": "Gustavo Guanabara",
+          "url": "https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "id": "gd-git",
+          "order": 2,
+          "topic": "Git e GitHub",
+          "title": "Curso gratuito Git e GitHub",
+          "author": "Tiago Matos",
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "id": "gd-csharp",
+          "order": 3,
+          "topic": "C#",
+          "title": "Curso de C#",
+          "author": "Antônio Rocha",
+          "url": "https://www.youtube.com/playlist?list=PLEI5qdfLBErZuMSareAo-TLTFYU9hGDsR"
+        },
+        {
+          "id": "gd-pixelart",
+          "order": 4,
+          "topic": "Pixel Art Completo",
+          "title": "Pixel Art Curso Completo",
+          "author": "Renan Silva",
+          "url": "https://www.youtube.com/playlist?list=PLYOZqxNe79xIUDs_xpzpcvFIt0lR5bQ5C"
+        },
+        {
+          "id": "gd-unity6",
+          "order": 5,
+          "topic": "Unity 6",
+          "title": "Curso Unity 6",
+          "author": "Leandro Dotta",
+          "url": "https://www.youtube.com/playlist?list=PLARDsRa4d7UyZF3cf9tbp_6vN3M737DY2"
+        },
+        {
+          "id": "gd-jogo2d",
+          "order": 6,
+          "topic": "Criando um Jogo 2D",
+          "title": "Criando um Jogo 2D",
+          "author": "Academia Unity",
+          "url": "https://www.youtube.com/playlist?list=PLciEA-M4VWn284pBB2e29Vo-MxlokLRx9"
+        },
+        {
+          "id": "gd-plataforma",
+          "order": 7,
+          "topic": "Plataforma 2D",
+          "title": "Criando um jogo de plataforma 2D na Unity",
+          "author": "Crie Seus Jogos",
+          "url": "https://www.youtube.com/playlist?list=PLW-9djkTMdfVNJD9aEnoOzkrU8dUoD7j4"
+        },
+        {
+          "id": "gd-mobile2d",
+          "order": 8,
+          "topic": "Jogos 2D Mobile",
+          "title": "Como criar JOGOS 2D no Unity PARA CELULAR",
+          "author": "Gabriel Dechichi",
+          "url": "https://www.youtube.com/playlist?list=PLw7F758vrsxxkQexyaLfKiAU2wo7BQXN9"
+        },
+        {
+          "id": "gd-rpg2d",
+          "order": 9,
+          "topic": "RPG 2D na Unity",
+          "title": "Unity - Criando um RPG 2D",
+          "author": "Two TV Games",
+          "url": "https://www.youtube.com/playlist?list=PLm43vXIKl0F-1uxmGW84NmlJh6dob296f"
+        },
+        {
+          "id": "gd-steam",
+          "order": 10,
+          "topic": "Publicar na Steam",
+          "title": "Como Publicar na Steam",
+          "author": "Indie Power",
+          "url": "https://www.youtube.com/watch?v=77N2pWM5f0E"
+        }
+      ]
+    },
+    {
+      "id": "hacker",
+      "name": "Hacker",
+      "order": 9,
+      "courses": [
+        {
+          "id": "hk-linux",
+          "order": 1,
+          "topic": "Linux",
+          "title": "Curso de Linux",
+          "author": "Bóson Treinamentos",
+          "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7"
+        },
+        {
+          "id": "hk-redes",
+          "order": 2,
+          "topic": "Redes de Computadores",
+          "title": "Curso de Redes de Computadores",
+          "author": "Gustavo Guanabara",
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dkd4lr9G0Up-W-YaHYdTDuP"
+        },
+        {
+          "id": "hk-investigacao",
+          "order": 3,
+          "topic": "Investigação Digital",
+          "title": "Curso de Investigação Digital",
+          "author": "Aulão Bruno Fraga",
+          "url": "https://www.youtube.com/playlist?list=PL3q2xAxCvADm0ihDxIdutf8mLZsn-lcCY"
+        },
+        {
+          "id": "hk-pericia",
+          "order": 4,
+          "topic": "Perícia Digital",
+          "title": "Curso de Perícia Digital",
+          "author": "Messias Eric",
+          "url": "https://www.youtube.com/playlist?list=PLSVwmQp6yjLSIzChVcFdKEKiBOcXYRhdh"
+        },
+        {
+          "id": "hk-seguranca",
+          "order": 5,
+          "topic": "Segurança com Prática",
+          "title": "Curso de Segurança com Prática",
+          "author": "Hardware Redes Brasil",
+          "url": "https://www.youtube.com/playlist?list=PLAp37wMSBouB70jGTeT0JjW_LNC_JBHCo"
+        },
+        {
+          "id": "hk-cripto",
+          "order": 6,
+          "topic": "Segurança e Criptografia",
+          "title": "Segurança e Criptografia",
+          "author": "Bóson Treinamentos",
+          "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNred_fII4GzZxMi91PKbney"
+        },
+        {
+          "id": "hk-pentest",
+          "order": 7,
+          "topic": "Hacking e Pentest 2.0",
+          "title": "Introdução ao Hacking e Pentest 2.0",
+          "author": "Solyd",
+          "url": "https://www.youtube.com/playlist?list=PLp95aw034Wn8Wi0NViVF58hOpX-m00jyg"
+        },
+        {
+          "id": "hk-exploits",
+          "order": 8,
+          "topic": "Exploits & CVEs",
+          "title": "Exploits & CVEs",
+          "author": "LiveOverflow",
+          "url": "https://www.youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN"
+        },
+        {
+          "id": "hk-ctf",
+          "order": 9,
+          "topic": "Boas Práticas em CTF",
+          "title": "Boas Práticas para um Bom CTF",
+          "author": "HackoonSpace",
+          "url": "https://www.youtube.com/watch?v=gO26V0B7kQw"
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "name": "DevOps",
+      "order": 10,
+      "courses": [
+        {
+          "id": "do-linux",
+          "order": 1,
+          "topic": "Linux",
+          "title": "Curso de Linux",
+          "author": "Bóson Treinamentos",
+          "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7"
+        },
+        {
+          "id": "do-redes",
+          "order": 2,
+          "topic": "Redes de Computadores",
+          "title": "Curso de Redes de Computadores",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLXoSGejyuQGpf4X-NdGjvSlEFZhn2f2H7"
+        },
+        {
+          "id": "do-shell",
+          "order": 3,
+          "topic": "Shell Script",
+          "title": "Curso de Shell Script",
+          "author": "Bóson Treinamentos",
+          "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNrYgjXC8_CgbvHbvI7dDfhs"
+        },
+        {
+          "id": "do-ansible",
+          "order": 4,
+          "topic": "Ansible",
+          "title": "Curso de Ansible",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLORF-y_edVoDQnky9u2OgyrfirE1dhutX"
+        },
+        {
+          "id": "do-docker",
+          "order": 5,
+          "topic": "Docker Completo",
+          "title": "Curso Docker Completo",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLg7nVxv7fa6dxsV1ftKI8FAm4YD6iZuI4"
+        },
+        {
+          "id": "do-descomplicando",
+          "order": 6,
+          "topic": "Descomplicando o Docker",
+          "title": "Descomplicando o Docker",
+          "author": "LinuxTips",
+          "url": "https://www.youtube.com/playlist?list=PLf-O3X2-mxDn1VpyU2q3fuI6YYeIWp5rR"
+        },
+        {
+          "id": "do-compose",
+          "order": 7,
+          "topic": "Docker Compose & Deploy",
+          "title": "Docker e Docker Compose do zero ao Deploy",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=yb2udL9GG2U"
+        },
+        {
+          "id": "do-k8s-intro",
+          "order": 8,
+          "topic": "Introdução ao Kubernetes",
+          "title": "Curso de Introdução ao Kubernetes",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLXzx948cNtr8XI5JBemHT9OWuYSPNUtXs"
+        },
+        {
+          "id": "do-k8s-intensivo",
+          "order": 9,
+          "topic": "Intensivo Kubernetes",
+          "title": "Intensivo Kubernetes: O mínimo que um dev precisa saber",
+          "author": "Full Cycle",
+          "url": "https://www.youtube.com/watch?v=5unI7VPnASM"
+        },
+        {
+          "id": "do-gitflow",
+          "order": 10,
+          "topic": "Intensivo Gitflow",
+          "title": "Intensivo Gitflow",
+          "author": "Full Cycle",
+          "url": "https://www.youtube.com/watch?v=dJjVr6Ya7B8"
+        },
+        {
+          "id": "do-cicd",
+          "order": 11,
+          "topic": "Desbravando CI/CD",
+          "title": "Desbravando CI/CD",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=df_WMXk7JxE"
+        }
+      ]
+    },
+    {
+      "id": "cyber",
+      "name": "CyberSecurity",
+      "order": 11,
+      "courses": [
+        {
+          "id": "cy-cs50",
+          "order": 1,
+          "topic": "Intro à CiberSegurança",
+          "title": "CS50's Introduction to Cybersecurity",
+          "author": "Harvard University",
+          "url": "https://www.edx.org/learn/cybersecurity/harvard-university-cs50-s-introduction-to-cybersecurity"
+        },
+        {
+          "id": "cy-fund",
+          "order": 2,
+          "topic": "Fundamentos CiberSegurança",
+          "title": "Certified Secure Netizen",
+          "author": "Udemy",
+          "url": "https://www.udemy.com/course/certified-secure-netizen/"
+        },
+        {
+          "id": "cy-eucap",
+          "order": 3,
+          "topic": "Cybersecurity",
+          "title": "Cybersecurity",
+          "author": "Eu Capacito",
+          "url": "https://www.eucapacito.com.br/cursos/cybersecurity/"
+        },
+        {
+          "id": "cy-zap",
+          "order": 4,
+          "topic": "OWASP ZAP do Zero",
+          "title": "OWASP ZAP From Scratch",
+          "author": "Udemy",
+          "url": "https://www.udemy.com/course/owasp-zap-from-scratch/"
+        },
+        {
+          "id": "cy-pentest",
+          "order": 5,
+          "topic": "Hacking e Pentest",
+          "title": "Introdução ao Hacking e Pentest",
+          "author": "Solyd",
+          "url": "https://solyd.com.br/cursos/introducao-ao-hacking-e-pentest-2/"
+        },
+        {
+          "id": "cy-siem",
+          "order": 6,
+          "topic": "Sistema de SIEM",
+          "title": "Get Started with SIEM",
+          "author": "Elastic",
+          "url": "https://www.elastic.co/docs/solutions/security/get-started/get-started-detect-with-siem"
+        },
+        {
+          "id": "cy-sast-dast-iast",
+          "order": 7,
+          "topic": "SAST, DAST e IAST",
+          "title": "SAST, DAST e IAST",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=t7gAbULSEaw"
+        },
+        {
+          "id": "cy-rasp",
+          "order": 10,
+          "topic": "RASP em AppSec",
+          "title": "RASP no Cenário de AppSec",
+          "author": "Conviso",
+          "url": "https://blog.convisoappsec.com/rasp-no-cenario-de-appsec/"
+        },
+        {
+          "id": "cy-lgpd",
+          "order": 11,
+          "topic": "Introdução à LGPD",
+          "title": "Introdução à LGPD",
+          "author": "Escola Virtual Gov",
+          "url": "https://www.escolavirtual.gov.br/curso/603"
+        },
+        {
+          "id": "cy-cripto1",
+          "order": 12,
+          "topic": "Criptografia Parte 1",
+          "title": "Criptografia — Parte 1",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=CcU5Kc_FN_4"
+        },
+        {
+          "id": "cy-cripto2",
+          "order": 13,
+          "topic": "Criptografia Parte 2",
+          "title": "Criptografia — Parte 2",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=HCHqtpipwu4"
+        },
+        {
+          "id": "cy-chaves",
+          "order": 14,
+          "topic": "Chaves Públicas e Privadas",
+          "title": "Configurar chaves públicas e privadas",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=7BEsfupYngE"
+        },
+        {
+          "id": "cy-reverse",
+          "order": 15,
+          "topic": "Engenharia Reversa",
+          "title": "Curso de Engenharia Reversa",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLIfZMtpPYFP6zLKlnyAeWY1I85VpyshAA"
+        },
+        {
+          "id": "cy-forense",
+          "order": 16,
+          "topic": "Forense Digital",
+          "title": "Curso de Forense Digital",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=bUqu8fh7xUg"
+        },
+        {
+          "id": "cy-python-pentest",
+          "order": 17,
+          "topic": "Python para Pentesters",
+          "title": "Curso Python para Pentesters",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLSVwmQp6yjLR6JlSFIQ7XyWVeO_IjLmM1"
+        }
+      ]
+    },
+    {
+      "id": "embarcados",
+      "name": "Embarcados",
+      "order": 12,
+      "courses": [
+        {
+          "id": "em-microeletronica",
+          "order": 1,
+          "topic": "Microeletrônica",
+          "title": "Microeletrônica",
+          "author": "Univesp",
+          "url": "https://integra.univesp.br/courses/2344"
+        },
+        {
+          "id": "em-c-moderno",
+          "order": 2,
+          "topic": "C Moderno",
+          "title": "Curso de C Moderno",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLIfZMtpPYFP5qaS2RFQxcNVkmJLGQwyKE"
+        },
+        {
+          "id": "em-c-extra",
+          "order": 3,
+          "topic": "Programação em C",
+          "title": "Curso de Programação em C",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLLCFxfe9wkl-tCZvSCbzQGcNv9nSN5ZAP"
+        },
+        {
+          "id": "em-eletronica",
+          "order": 4,
+          "topic": "Conceitos de Eletrônica",
+          "title": "Conceitos de Eletrônica",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLfdR3_dt2rbcv2CmrbeT8wu50Yga0fjE8"
+        },
+        {
+          "id": "em-eletronica-univesp",
+          "order": 5,
+          "topic": "Eletrônica — Univesp",
+          "title": "Curso de Eletrônica",
+          "author": "Univesp",
+          "url": "https://integra.univesp.br/courses/2710"
+        },
+        {
+          "id": "em-arduino",
+          "order": 6,
+          "topic": "Arduino",
+          "title": "Curso de Arduino",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLZ8dBTV2_5HQpKzBt3nJex3Mbk7hmhFHl"
+        },
+        {
+          "id": "em-microcontroladores",
+          "order": 7,
+          "topic": "Microcontroladores",
+          "title": "Curso de Microcontroladores",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLMdNWywlSE5QPsEeT_cXisUT366NS3U8R"
+        },
+        {
+          "id": "em-stm32",
+          "order": 8,
+          "topic": "STM32",
+          "title": "Curso de STM32",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLMdNWywlSE5TtOxRm6frvH_om1NOyj33H"
+        },
+        {
+          "id": "em-assembly",
+          "order": 9,
+          "topic": "Assembly ATMega328",
+          "title": "Curso de Assembly para ATMega328",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=JEE9RvwEDuo&list=PLw-GnG0Kv5F7UM9y-FUmw7sI5sjdbaSpe"
+        },
+        {
+          "id": "em-cpp",
+          "order": 10,
+          "topic": "C++",
+          "title": "Curso de C++",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLIUc9-A-aPpqrzY3YuWDUOyQLOBCb5lck"
+        },
+        {
+          "id": "em-freertos",
+          "order": 11,
+          "topic": "FreeRTOS",
+          "title": "Curso de FreeRTOS",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLU15eSNTfwrnlzgvMmb1NK7l0qNo8UMKr"
+        },
+        {
+          "id": "em-mqtt",
+          "order": 12,
+          "topic": "MQTT",
+          "title": "Curso de MQTT",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=WqHIFSYMHy0"
+        },
+        {
+          "id": "em-lorawan",
+          "order": 13,
+          "topic": "LoRaWAN",
+          "title": "Curso de LoRaWAN",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=iPGXyeHv5JQ&list=PLU15eSNTfwrnd1I835eFA124rd4CVGq3e"
+        },
+        {
+          "id": "em-esp32",
+          "order": 14,
+          "topic": "ESP32",
+          "title": "Curso de ESP32",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLZ8dBTV2_5HS79fVexGTtCMDUp7kjnumS"
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "name": "Automação",
+      "order": 13,
+      "courses": [
+        {
+          "id": "au-logica",
+          "order": 1,
+          "topic": "Lógica de Programação",
+          "title": "Curso de Algoritmos e Lógica de Programação",
+          "author": "Gustavo Guanabara",
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "id": "au-python",
+          "order": 2,
+          "topic": "Python",
+          "title": "Curso de Python",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PL5TJqBvpXQv55oh1fRrBol4LSKEqUbVD0"
+        },
+        {
+          "id": "au-git",
+          "order": 3,
+          "topic": "Git e GitHub",
+          "title": "Curso gratuito Git e GitHub",
+          "author": "Tiago Matos",
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "id": "au-linux",
+          "order": 4,
+          "topic": "Linux",
+          "title": "Curso de Linux",
+          "author": "Bóson Treinamentos",
+          "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7"
+        },
+        {
+          "id": "au-db",
+          "order": 5,
+          "topic": "Bancos de Dados",
+          "title": "Curso de SQL com MySQL (Completo)",
+          "author": "Otávio Miranda",
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "id": "au-apis",
+          "order": 6,
+          "topic": "APIs",
+          "title": "Curso de APIs",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLpdAy0tYrnKy3TvpCT-x7kGqMQ5grk1Xq"
+        },
+        {
+          "id": "au-python-auto",
+          "order": 7,
+          "topic": "Python para Automação",
+          "title": "Python para Automação",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLpdAy0tYrnKyjrY1Fr72DhmrRmeWI_5C8"
+        },
+        {
+          "id": "au-n8n",
+          "order": 8,
+          "topic": "n8n",
+          "title": "Curso de n8n",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLPH5yL5ZVjjW7cRT4COVLiQqujaN3sHlG"
+        },
+        {
+          "id": "au-llm",
+          "order": 9,
+          "topic": "IA e LLMs",
+          "title": "IA e Automação com LLMs",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=-Ka4YKW7RwM"
+        }
+      ]
+    },
+    {
+      "id": "data-engineering",
+      "name": "Eng. de Dados",
+      "order": 14,
+      "courses": [
+        {
+          "id": "de-logica",
+          "order": 1,
+          "topic": "Lógica de Programação",
+          "title": "Curso de Algoritmos e Lógica de Programação",
+          "author": "Gustavo Guanabara",
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "id": "de-git",
+          "order": 2,
+          "topic": "Git e GitHub",
+          "title": "Curso gratuito Git e GitHub",
+          "author": "Tiago Matos",
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "id": "de-python",
+          "order": 3,
+          "topic": "Python",
+          "title": "Curso de Python",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLLWTDkRZXQa9YyC1LMbuDTz3XVC4E9ZQA"
+        },
+        {
+          "id": "de-sql",
+          "order": 4,
+          "topic": "SQL",
+          "title": "Curso de SQL com MySQL (Completo)",
+          "author": "Otávio Miranda",
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "id": "de-linux",
+          "order": 5,
+          "topic": "Linux",
+          "title": "Curso de Linux",
+          "author": "Bóson Treinamentos",
+          "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7"
+        },
+        {
+          "id": "de-redes-apis",
+          "order": 6,
+          "topic": "Redes e APIs",
+          "title": "Curso de Redes e APIs",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLpdAy0tYrnKy3TvpCT-x7kGqMQ5grk1Xq"
+        },
+        {
+          "id": "de-pandas",
+          "order": 7,
+          "topic": "Pandas e NumPy",
+          "title": "Pandas e NumPy",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PL3Fmwz_E1hXRWxIkP843DiDf0ZeqgftTy"
+        },
+        {
+          "id": "de-etl",
+          "order": 8,
+          "topic": "ETL / ELT",
+          "title": "ETL/ELT",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PL_b3PX9XGVYMW1w-68YmDv2kAl5Gfiuvx"
+        },
+        {
+          "id": "de-dw",
+          "order": 9,
+          "topic": "Data Warehouse",
+          "title": "Data Warehouse",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=kwUgGTfac8s"
+        },
+        {
+          "id": "de-spark",
+          "order": 10,
+          "topic": "Apache Spark",
+          "title": "Apache Spark",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLjwVjYMyoFoFO-TvZuxmqe5nlfr8xG5lk"
+        },
+        {
+          "id": "de-airflow",
+          "order": 11,
+          "topic": "Apache Airflow",
+          "title": "Apache Airflow",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLLNidqMOzeD5yXv9lDtBM-VJ5-1F-ZdXI"
+        },
+        {
+          "id": "de-aws",
+          "order": 12,
+          "topic": "AWS",
+          "title": "AWS",
+          "author": "DevDojo",
+          "url": "https://www.youtube.com/playlist?list=PL62G310vn6nHwfC31Q2hqh-3nO-6Rceyd"
+        },
+        {
+          "id": "de-bigdata",
+          "order": 13,
+          "topic": "Big Data",
+          "title": "Big Data",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLzKHEB8QCel8UIA2JfUTYQaUgvJa6mUog"
+        },
+        {
+          "id": "de-docker-cicd",
+          "order": 14,
+          "topic": "Docker e CI/CD",
+          "title": "Docker e CI/CD",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=df_WMXk7JxE"
+        }
+      ]
+    },
+    {
+      "id": "blockchain",
+      "name": "Blockchain",
+      "order": 15,
+      "courses": [
+        {
+          "id": "bc-logica",
+          "order": 1,
+          "topic": "Lógica de Programação",
+          "title": "Curso de Algoritmos e Lógica de Programação",
+          "author": "Gustavo Guanabara",
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "id": "bc-git",
+          "order": 2,
+          "topic": "Git e GitHub",
+          "title": "Curso gratuito Git e GitHub",
+          "author": "Tiago Matos",
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "id": "bc-js",
+          "order": 3,
+          "topic": "JavaScript",
+          "title": "Curso de JavaScript",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLx4x_zx8csUg_AxxbVWHEyAJ6cBdsYc0T"
+        },
+        {
+          "id": "bc-ts",
+          "order": 4,
+          "topic": "TypeScript",
+          "title": "Curso de TypeScript",
+          "author": "Glaucia Lemos",
+          "url": "https://www.youtube.com/playlist?list=PL9tY_tDo_Q0DOAzTaPnWYsryfNLsz1K6U"
+        },
+        {
+          "id": "bc-htmlcss",
+          "order": 5,
+          "topic": "HTML e CSS",
+          "title": "Curso Completo de HTML e CSS",
+          "author": "Daniel Tapias Morales",
+          "url": "https://www.youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP"
+        },
+        {
+          "id": "bc-db",
+          "order": 6,
+          "topic": "Banco de Dados",
+          "title": "Curso de SQL com MySQL (Completo)",
+          "author": "Otávio Miranda",
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "id": "bc-redes",
+          "order": 7,
+          "topic": "Redes de Computadores",
+          "title": "Curso de Redes de Computadores",
+          "author": "Gustavo Guanabara",
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dkd4lr9G0Up-W-YaHYdTDuP"
+        },
+        {
+          "id": "bc-cripto",
+          "order": 8,
+          "topic": "Criptografia",
+          "title": "Segurança e Criptografia",
+          "author": "Bóson Treinamentos",
+          "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNred_fII4GzZxMi91PKbney"
+        },
+        {
+          "id": "bc-blockchain",
+          "order": 9,
+          "topic": "Blockchain",
+          "title": "Curso de Blockchain",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PL4PvbJTuGFzu1Xw5mMTvCLy4pY5S3ZBGO"
+        },
+        {
+          "id": "bc-solidity",
+          "order": 10,
+          "topic": "Solidity",
+          "title": "Curso de Solidity",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLpaKFn4Q4GMNx8Ky143ycp2qCZ23WsFry"
+        },
+        {
+          "id": "bc-ethers",
+          "order": 11,
+          "topic": "Ethers.js",
+          "title": "Curso de Ethers.js",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLPPrIZLm5juZfG49vbjRVti1NwAZ_IrdA"
+        },
+        {
+          "id": "bc-security",
+          "order": 12,
+          "topic": "Segurança de Smart Contracts",
+          "title": "Segurança de Smart Contracts",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=OvEpixdVs24"
+        }
+      ]
+    },
+    {
+      "id": "qa",
+      "name": "QA",
+      "order": 16,
+      "courses": [
+        {
+          "id": "qa-logica",
+          "order": 1,
+          "topic": "Lógica de Programação",
+          "title": "Curso de Algoritmos e Lógica de Programação",
+          "author": "Gustavo Guanabara",
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "id": "qa-git",
+          "order": 2,
+          "topic": "Git e GitHub",
+          "title": "Curso gratuito Git e GitHub",
+          "author": "Tiago Matos",
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "id": "qa-fundamentos",
+          "order": 3,
+          "topic": "Fundamentos de QA",
+          "title": "Fundamentos de QA",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PL0nYAInGtru1q0laP62tgjTWohsij782i"
+        },
+        {
+          "id": "qa-htmlcss",
+          "order": 4,
+          "topic": "HTML e CSS",
+          "title": "Curso Completo de HTML e CSS",
+          "author": "Daniel Tapias Morales",
+          "url": "https://www.youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP"
+        },
+        {
+          "id": "qa-js",
+          "order": 5,
+          "topic": "JavaScript",
+          "title": "Curso de JavaScript",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PL2Fdisxwzt_d590u3uad46W-kHA0PTjjw"
+        },
+        {
+          "id": "qa-sql",
+          "order": 6,
+          "topic": "Banco de Dados (SQL)",
+          "title": "Curso de SQL com MySQL (Completo)",
+          "author": "Otávio Miranda",
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "id": "qa-apis",
+          "order": 7,
+          "topic": "APIs e Postman",
+          "title": "APIs e Postman",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLEqTHftpM91OzKYUkpaEuByhSpJYc90Hs"
+        },
+        {
+          "id": "qa-scrum",
+          "order": 8,
+          "topic": "Scrum",
+          "title": "Scrum",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLoGDMdX4pUAfso0bQWSZFgjEBlr2H9IBU"
+        },
+        {
+          "id": "qa-jira",
+          "order": 9,
+          "topic": "Jira",
+          "title": "Jira",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PL7NDvV6PnYODio6jp-dYLXPL8SQHzTJxy"
+        },
+        {
+          "id": "qa-playwright",
+          "order": 10,
+          "topic": "Playwright",
+          "title": "Playwright",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLjN70jnl7au90KkTZDvlOFsmC6sLP3525"
+        },
+        {
+          "id": "qa-api-auto",
+          "order": 11,
+          "topic": "Automação de APIs",
+          "title": "Automação de APIs",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=-Ka4YKW7RwM"
+        },
+        {
+          "id": "qa-cicd",
+          "order": 12,
+          "topic": "CI/CD",
+          "title": "CI/CD",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=df_WMXk7JxE"
+        },
+        {
+          "id": "qa-performance",
+          "order": 13,
+          "topic": "Testes de Performance",
+          "title": "Testes de Performance",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=Azv3jxXkKeY"
+        }
+      ]
+    },
+    {
+      "id": "uiux",
+      "name": "UI / UX",
+      "order": 17,
+      "courses": [
+        {
+          "id": "ux-design",
+          "order": 1,
+          "topic": "Fundamentos do Design",
+          "title": "Fundamentos do Design",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwgL9IEA0PxUl0eXSqqI_78rvlog15lHl"
+        },
+        {
+          "id": "ux-ux",
+          "order": 2,
+          "topic": "UX",
+          "title": "Curso de UX",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwgL9IEA0PxVxs3z5_q0Sl4zV7YkM8AAH"
+        },
+        {
+          "id": "ux-figma",
+          "order": 3,
+          "topic": "Figma",
+          "title": "Curso de Figma",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwgL9IEA0PxXzmOu0crRl9l6PT46nqtI9"
+        },
+        {
+          "id": "ux-design-system",
+          "order": 4,
+          "topic": "Design System",
+          "title": "Curso de Design System",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLIJwVnx284qpM1YJj1Chw0sc2i48p6h6K"
+        },
+        {
+          "id": "ux-htmlcss",
+          "order": 5,
+          "topic": "HTML e CSS",
+          "title": "Curso Completo de HTML e CSS",
+          "author": "Daniel Tapias Morales",
+          "url": "https://www.youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP"
+        }
+      ]
+    },
+    {
+      "id": "cloud",
+      "name": "Cloud",
+      "order": 18,
+      "courses": [
+        {
+          "id": "cl-logica",
+          "order": 1,
+          "topic": "Lógica de Programação",
+          "title": "Curso de Algoritmos e Lógica de Programação",
+          "author": "Gustavo Guanabara",
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "id": "cl-go",
+          "order": 2,
+          "topic": "Go",
+          "title": "Curso de Go (Golang)",
+          "author": "Aprenda Go",
+          "url": "https://www.youtube.com/playlist?list=PLCKpcjBB_VlBsxJ9IseNxFllf-UFEXOdg"
+        },
+        {
+          "id": "cl-git",
+          "order": 3,
+          "topic": "Git e GitHub",
+          "title": "Curso gratuito Git e GitHub",
+          "author": "Tiago Matos",
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "id": "cl-linux",
+          "order": 4,
+          "topic": "Linux",
+          "title": "Curso de Linux",
+          "author": "Bóson Treinamentos",
+          "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7"
+        },
+        {
+          "id": "cl-bash",
+          "order": 5,
+          "topic": "Bash",
+          "title": "Curso Básico de Bash",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLXoSGejyuQGpf4X-NdGjvSlEFZhn2f2H7"
+        },
+        {
+          "id": "cl-redes",
+          "order": 6,
+          "topic": "Redes de Computadores",
+          "title": "Curso de Redes de Computadores",
+          "author": "Gustavo Guanabara",
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dkd4lr9G0Up-W-YaHYdTDuP"
+        },
+        {
+          "id": "cl-db",
+          "order": 7,
+          "topic": "Banco de Dados",
+          "title": "Curso de SQL com MySQL (Completo)",
+          "author": "Otávio Miranda",
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "id": "cl-web",
+          "order": 8,
+          "topic": "Desenvolvimento Web Básico",
+          "title": "Curso Completo de HTML e CSS",
+          "author": "Daniel Tapias Morales",
+          "url": "https://www.youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP"
+        },
+        {
+          "id": "cl-aws",
+          "order": 9,
+          "topic": "AWS",
+          "title": "AWS",
+          "author": "DevDojo",
+          "url": "https://www.youtube.com/playlist?list=PL62G310vn6nHwfC31Q2hqh-3nO-6Rceyd"
+        },
+        {
+          "id": "cl-docker",
+          "order": 10,
+          "topic": "Docker",
+          "title": "Docker Essencial",
+          "author": "TechEduca",
+          "url": "https://www.youtube.com/playlist?list=PLViOsriojeLrdw5VByn96gphHFxqH3O_N"
+        },
+        {
+          "id": "cl-k8s",
+          "order": 11,
+          "topic": "Kubernetes",
+          "title": "Kubernetes",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLnOICPAPShyTwuLit7vP6In9kETQ0BSnQ"
+        },
+        {
+          "id": "cl-terraform",
+          "order": 12,
+          "topic": "Terraform",
+          "title": "Terraform",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLWQmZVQayUUIgSmOj3GPH2BJcn0hOzIaP"
+        }
+      ]
+    },
+    {
+      "id": "mobile",
+      "name": "Mobile",
+      "order": 19,
+      "courses": [
+        {
+          "id": "mb-logica",
+          "order": 1,
+          "topic": "Lógica de Programação",
+          "title": "Curso de Algoritmos e Lógica de Programação",
+          "author": "Gustavo Guanabara",
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "id": "mb-git",
+          "order": 2,
+          "topic": "Git e GitHub",
+          "title": "Curso gratuito Git e GitHub",
+          "author": "Tiago Matos",
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "id": "mb-kotlin",
+          "order": 3,
+          "topic": "Kotlin",
+          "title": "Curso de Kotlin",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLRHt7FXZbVCSExTvJ6_qTrt_K8NsL0l6N"
+        },
+        {
+          "id": "mb-android-studio",
+          "order": 4,
+          "topic": "Android Studio",
+          "title": "Curso de Android Studio",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PL50rZONmv8ZRsWj0L3rvSicPSEJl6sQ40"
+        },
+        {
+          "id": "mb-compose",
+          "order": 5,
+          "topic": "Jetpack Compose",
+          "title": "Jetpack Compose",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLizN3WA8HR1yvdN7FcfYYc2zAvdAAgel6"
+        },
+        {
+          "id": "mb-db",
+          "order": 6,
+          "topic": "Bancos de Dados",
+          "title": "Curso de SQL com MySQL (Completo)",
+          "author": "Otávio Miranda",
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "id": "mb-firebase",
+          "order": 7,
+          "topic": "Firebase",
+          "title": "Curso de Firebase",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLizN3WA8HR1zcb5bX3Xq_eQ3h0ENJyQJ9"
+        },
+        {
+          "id": "mb-coroutines",
+          "order": 8,
+          "topic": "Coroutines",
+          "title": "Coroutines do Kotlin",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=A7ruUf4VI_o"
+        },
+        {
+          "id": "mb-flow",
+          "order": 9,
+          "topic": "Kotlin Flow",
+          "title": "Kotlin Flow",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=WKISEDyTQfc"
+        },
+        {
+          "id": "mb-di",
+          "order": 10,
+          "topic": "Injeção de Dependência",
+          "title": "Injeção de Dependência",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=G5EiL9Ul148"
+        },
+        {
+          "id": "mb-tests",
+          "order": 11,
+          "topic": "Testes Unitários",
+          "title": "Testes Unitários",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/playlist?list=PL18bbNo7xuh9ZmqYhETZuEDP_x3Z8ql2H"
+        },
+        {
+          "id": "mb-publish",
+          "order": 12,
+          "topic": "Publicar na Google Play",
+          "title": "Publicar um aplicativo na Google Play",
+          "author": "Canal do YouTube",
+          "url": "https://www.youtube.com/watch?v=9wNp4CUJAGk"
+        }
+      ]
+    }
+  ]
+}

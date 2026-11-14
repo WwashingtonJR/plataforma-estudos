@@ -1,0 +1,1346 @@
+{
+  "source": "https://jornadadevheroi.com/",
+  "startedAt": "2026-11-14T19:51:34.846Z",
+  "tracks": [
+    {
+      "sourceId": "backend",
+      "id": 2,
+      "name": "Back End",
+      "courses": [
+        {
+          "sourceId": "be-logica",
+          "moduleId": 1,
+          "videoId": 1,
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "sourceId": "be-java",
+          "moduleId": 2,
+          "videoId": 2,
+          "url": "https://www.youtube.com/playlist?list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW"
+        },
+        {
+          "sourceId": "be-git",
+          "moduleId": 3,
+          "videoId": 3,
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "sourceId": "be-sql",
+          "moduleId": 4,
+          "videoId": 4,
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "sourceId": "be-apis",
+          "moduleId": 5,
+          "videoId": 5,
+          "url": "https://www.youtube.com/playlist?list=PLf8x7B3nFTl17WeEVj405tHlstiq1kNBX"
+        },
+        {
+          "sourceId": "be-spring",
+          "moduleId": 6,
+          "videoId": 6,
+          "url": "https://www.youtube.com/playlist?list=PL62G310vn6nFBIxp6ZwGnm8xMcGE3VA5H"
+        },
+        {
+          "sourceId": "be-docker",
+          "moduleId": 7,
+          "videoId": 7,
+          "url": "https://www.youtube.com/playlist?list=PLViOsriojeLrdw5VByn96gphHFxqH3O_N"
+        },
+        {
+          "sourceId": "be-aws",
+          "moduleId": 8,
+          "videoId": 8,
+          "url": "https://www.youtube.com/playlist?list=PL62G310vn6nHwfC31Q2hqh-3nO-6Rceyd"
+        }
+      ]
+    },
+    {
+      "sourceId": "frontend",
+      "id": 1,
+      "name": "Front-end",
+      "courses": [
+        {
+          "sourceId": "fe-html-css",
+          "moduleId": 9,
+          "videoId": 9,
+          "url": "https://youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP"
+        },
+        {
+          "sourceId": "fe-logica",
+          "moduleId": 10,
+          "videoId": 10,
+          "url": "https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "sourceId": "fe-git",
+          "moduleId": 11,
+          "videoId": 11,
+          "url": "https://youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "sourceId": "fe-javascript",
+          "moduleId": 12,
+          "videoId": 12,
+          "url": "https://youtube.com/playlist?list=PLnDvRpP8BneysKU8KivhnrVaKpILD3gZ6"
+        },
+        {
+          "sourceId": "fe-typescript",
+          "moduleId": 13,
+          "videoId": 13,
+          "url": "https://youtube.com/playlist?list=PL9tY_tDo_Q0DOAzTaPnWYsryfNLsz1K6U"
+        },
+        {
+          "sourceId": "fe-api",
+          "moduleId": 14,
+          "videoId": 14,
+          "url": "https://youtube.com/playlist?list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP"
+        },
+        {
+          "sourceId": "fe-react",
+          "moduleId": 15,
+          "videoId": 15,
+          "url": "https://youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO"
+        },
+        {
+          "sourceId": "fe-uiux",
+          "moduleId": 16,
+          "videoId": 16,
+          "url": "https://www.coursera.org/learn/ux-ui-design-de-interface"
+        },
+        {
+          "sourceId": "fe-testes",
+          "moduleId": 17,
+          "videoId": 17,
+          "url": "https://youtube.com/playlist?list=PLRVYQGMz5x2Y4NhqFI48usszCOtfPELM2"
+        }
+      ]
+    },
+    {
+      "sourceId": "fullstack",
+      "id": 3,
+      "name": "Full Stack",
+      "courses": [
+        {
+          "sourceId": "fs-html-css",
+          "moduleId": 18,
+          "videoId": 18,
+          "url": "https://www.youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP"
+        },
+        {
+          "sourceId": "fs-git",
+          "moduleId": 19,
+          "videoId": 19,
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "sourceId": "fs-javascript",
+          "moduleId": 20,
+          "videoId": 20,
+          "url": "https://www.youtube.com/playlist?list=PLnDvRpP8BneysKU8KivhnrVaKpILD3gZ6"
+        },
+        {
+          "sourceId": "fs-react",
+          "moduleId": 21,
+          "videoId": 21,
+          "url": "https://www.youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO"
+        },
+        {
+          "sourceId": "fs-node",
+          "moduleId": 22,
+          "videoId": 22,
+          "url": "https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B"
+        },
+        {
+          "sourceId": "fs-typescript-node",
+          "moduleId": 23,
+          "videoId": 23,
+          "url": "https://www.youtube.com/playlist?list=PL9tY_tDo_Q0DOAzTaPnWYsryfNLsz1K6U"
+        },
+        {
+          "sourceId": "fs-sql",
+          "moduleId": 24,
+          "videoId": 24,
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "sourceId": "fs-api-rest",
+          "moduleId": 25,
+          "videoId": 25,
+          "url": "https://www.youtube.com/playlist?list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP"
+        },
+        {
+          "sourceId": "fs-docker",
+          "moduleId": 26,
+          "videoId": 26,
+          "url": "https://www.youtube.com/playlist?list=PLViOsriojeLrdw5VByn96gphHFxqH3O_N"
+        },
+        {
+          "sourceId": "fs-projeto",
+          "moduleId": 27,
+          "videoId": 27,
+          "url": "https://www.youtube.com/playlist?list=PL45Hr6NzteIJQyvk6v0T78Ye8IsGm0mYS"
+        }
+      ]
+    },
+    {
+      "sourceId": "datascience",
+      "id": 4,
+      "name": "Ciência de Dados",
+      "courses": [
+        {
+          "sourceId": "ds-python",
+          "moduleId": 28,
+          "videoId": 28,
+          "url": "https://www.youtube.com/playlist?list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0"
+        },
+        {
+          "sourceId": "ds-git",
+          "moduleId": 29,
+          "videoId": 29,
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "sourceId": "ds-sql",
+          "moduleId": 30,
+          "videoId": 30,
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "sourceId": "ds-numpy",
+          "moduleId": 31,
+          "videoId": 31,
+          "url": "https://www.youtube.com/playlist?list=PL3Fmwz_E1hXRWxIkP843DiDf0ZeqgftTy"
+        },
+        {
+          "sourceId": "ds-ml-python",
+          "moduleId": 32,
+          "videoId": 32,
+          "url": "https://www.youtube.com/playlist?list=PLyqOvdQmGdTR46HUxDA6Ymv4DGsIjvTQ-"
+        },
+        {
+          "sourceId": "ds-powerbi",
+          "moduleId": 33,
+          "videoId": 33,
+          "url": "https://www.youtube.com/playlist?list=PLFKhhNd35zq90tdc3PYpx4IA-SoxSNlmN"
+        },
+        {
+          "sourceId": "ds-intro",
+          "moduleId": 34,
+          "videoId": 34,
+          "url": "https://www.youtube.com/playlist?list=PLlDg_wRHtbjLWfS-rGguPi1qNetGQ6Ogr"
+        },
+        {
+          "sourceId": "ds-estatidados",
+          "moduleId": 35,
+          "videoId": 35,
+          "url": "https://www.youtube.com/playlist?list=PLjdDBZW3EmXe6hO2Rt5Q9I5wzRZ7j7K8P"
+        },
+        {
+          "sourceId": "ds-sklearn",
+          "moduleId": 36,
+          "videoId": 36,
+          "url": "https://www.youtube.com/playlist?list=PL8PS-tykU-MiZtXZAYjfSW5-2WN4FwCGA"
+        },
+        {
+          "sourceId": "ds-ia",
+          "moduleId": 37,
+          "videoId": 37,
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dm24MhlWJYiR_Rm7TFtvs6S"
+        }
+      ]
+    },
+    {
+      "sourceId": "ai",
+      "id": 5,
+      "name": "Inteligência Artificial",
+      "courses": [
+        {
+          "sourceId": "ai-fundamentos",
+          "moduleId": 38,
+          "videoId": 38,
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dm24MhlWJYiR_Rm7TFtvs6S"
+        },
+        {
+          "sourceId": "ai-python",
+          "moduleId": 39,
+          "videoId": 39,
+          "url": "https://www.youtube.com/playlist?list=PLqurcgxgZi_hIxsdslFpTWSu5aRJFjve7"
+        },
+        {
+          "sourceId": "ai-estatistica",
+          "moduleId": 40,
+          "videoId": 40,
+          "url": "https://www.youtube.com/playlist?list=PLqGk0p_9aqwlwpKqrQk2t0vR7NQN-k0N5"
+        },
+        {
+          "sourceId": "ai-ml",
+          "moduleId": 41,
+          "videoId": 41,
+          "url": "https://www.youtube.com/playlist?list=PL-t7zzWJWPtzhZtI-bWWHFtCfxtjmBdIW"
+        },
+        {
+          "sourceId": "ai-numpy",
+          "moduleId": 42,
+          "videoId": 42,
+          "url": "https://www.youtube.com/playlist?list=PL3Fmwz_E1hXRWxIkP843DiDf0ZeqgftTy"
+        },
+        {
+          "sourceId": "ai-deep",
+          "moduleId": 43,
+          "videoId": 43,
+          "url": "https://www.youtube.com/playlist?list=PL5TJqBvpXQv6cd1kade4kjwr8_QQj8j3k"
+        },
+        {
+          "sourceId": "ai-nlp",
+          "moduleId": 44,
+          "videoId": 44,
+          "url": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL"
+        },
+        {
+          "sourceId": "ai-mlops",
+          "moduleId": 45,
+          "videoId": 45,
+          "url": "https://www.youtube.com/playlist?list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK"
+        }
+      ]
+    },
+    {
+      "sourceId": "advanced",
+      "id": 6,
+      "name": "Avançado",
+      "courses": [
+        {
+          "sourceId": "av-linux",
+          "moduleId": 46,
+          "videoId": 46,
+          "url": "https://www.youtube.com/playlist?list=PLnDvRpP8BnezDTtL8lm6C-UOJZn-xzALH"
+        },
+        {
+          "sourceId": "av-sql",
+          "moduleId": 47,
+          "videoId": 47,
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "sourceId": "av-nosql",
+          "moduleId": 48,
+          "videoId": 48,
+          "url": "https://www.youtube.com/playlist?list=PLfvOpw8k80WpKTtloa7fMbfPWL7D6X5cC"
+        },
+        {
+          "sourceId": "av-api-test",
+          "moduleId": 49,
+          "videoId": 49,
+          "url": "https://www.youtube.com/playlist?list=PLf8x7B3nFTl17WeEVj405tHlstiq1kNBX"
+        },
+        {
+          "sourceId": "av-aws",
+          "moduleId": 50,
+          "videoId": 50,
+          "url": "https://www.youtube.com/playlist?list=PL62G310vn6nHwfC31Q2hqh-3nO-6Rceyd"
+        },
+        {
+          "sourceId": "av-docker",
+          "moduleId": 51,
+          "videoId": 51,
+          "url": "https://www.youtube.com/playlist?list=PLViOsriojeLrdw5VByn96gphHFxqH3O_N"
+        },
+        {
+          "sourceId": "av-gh-actions",
+          "moduleId": 52,
+          "videoId": 52,
+          "url": "https://www.youtube.com/watch?v=df_WMXk7JxE"
+        },
+        {
+          "sourceId": "av-terraform",
+          "moduleId": 53,
+          "videoId": 53,
+          "url": "https://www.youtube.com/playlist?list=PLWQmZVQayUUIgSmOj3GPH2BJcn0hOzIaP"
+        },
+        {
+          "sourceId": "av-k8s",
+          "moduleId": 54,
+          "videoId": 54,
+          "url": "https://www.youtube.com/playlist?list=PLnOICPAPShyTwuLit7vP6In9kETQ0BSnQ"
+        },
+        {
+          "sourceId": "av-kafka",
+          "moduleId": 55,
+          "videoId": 55,
+          "url": "https://www.youtube.com/playlist?list=PL5aY_NrL1rjt_AZxj11kQjiTNLGg4ZaZA"
+        }
+      ]
+    },
+    {
+      "sourceId": "math",
+      "id": 7,
+      "name": "O Louco Matemático",
+      "courses": [
+        {
+          "sourceId": "mt-basica",
+          "moduleId": 56,
+          "videoId": 56,
+          "url": "https://www.youtube.com/playlist?list=PLTPg64KdGgYgFpOFt2TETLdEuBB4fvxxf"
+        },
+        {
+          "sourceId": "mt-geo-func",
+          "moduleId": 57,
+          "videoId": 57,
+          "url": "https://www.youtube.com/playlist?list=PLTPg64KdGgYhy8stGM4z2_Hzb3zTfA77Z"
+        },
+        {
+          "sourceId": "mt-logica",
+          "moduleId": 58,
+          "videoId": 58,
+          "url": "https://www.youtube.com/playlist?list=PLrDis1u8cwtYOH7vZU3vghV0GpLuRpLHA"
+        },
+        {
+          "sourceId": "mt-discreta",
+          "moduleId": 59,
+          "videoId": 59,
+          "url": "https://www.youtube.com/playlist?list=PLdFLgROzdbuIf5UsBA_VxTqDVDihXlIYN"
+        },
+        {
+          "sourceId": "mt-combinatoria",
+          "moduleId": 60,
+          "videoId": 60,
+          "url": "https://www.youtube.com/playlist?list=PLzvYXXKDUPquxp8QqYzd-_O5tzbC4HaJl"
+        },
+        {
+          "sourceId": "mt-precalc",
+          "moduleId": 61,
+          "videoId": 61,
+          "url": "https://www.youtube.com/playlist?list=PLa_2246N48_rIbheR_al4oqeFCP8dHoQR"
+        },
+        {
+          "sourceId": "mt-calc1",
+          "moduleId": 62,
+          "videoId": 62,
+          "url": "https://www.youtube.com/playlist?list=PLTPg64KdGgYhACfQUtMf3CuhWOfLoTf_a"
+        },
+        {
+          "sourceId": "mt-algebra-linear",
+          "moduleId": 63,
+          "videoId": 63,
+          "url": "https://www.youtube.com/playlist?list=PLO3hBdfBc4pFef1zn1oZyYXLomL9MiX-C"
+        },
+        {
+          "sourceId": "mt-estatistica",
+          "moduleId": 64,
+          "videoId": 64,
+          "url": "https://www.youtube.com/playlist?list=PLA0675987914E07BB"
+        },
+        {
+          "sourceId": "mt-grafos",
+          "moduleId": 65,
+          "videoId": 65,
+          "url": "https://www.youtube.com/playlist?list=PLrOyM49ctTx-xtyVeuO7ylclgXHd4ws9a"
+        }
+      ]
+    },
+    {
+      "sourceId": "security",
+      "id": 8,
+      "name": "GameDev",
+      "courses": [
+        {
+          "sourceId": "gd-logica",
+          "moduleId": 66,
+          "videoId": 66,
+          "url": "https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "sourceId": "gd-git",
+          "moduleId": 67,
+          "videoId": 67,
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "sourceId": "gd-csharp",
+          "moduleId": 68,
+          "videoId": 68,
+          "url": "https://www.youtube.com/playlist?list=PLEI5qdfLBErZuMSareAo-TLTFYU9hGDsR"
+        },
+        {
+          "sourceId": "gd-pixelart",
+          "moduleId": 69,
+          "videoId": 69,
+          "url": "https://www.youtube.com/playlist?list=PLYOZqxNe79xIUDs_xpzpcvFIt0lR5bQ5C"
+        },
+        {
+          "sourceId": "gd-unity6",
+          "moduleId": 70,
+          "videoId": 70,
+          "url": "https://www.youtube.com/playlist?list=PLARDsRa4d7UyZF3cf9tbp_6vN3M737DY2"
+        },
+        {
+          "sourceId": "gd-jogo2d",
+          "moduleId": 71,
+          "videoId": 71,
+          "url": "https://www.youtube.com/playlist?list=PLciEA-M4VWn284pBB2e29Vo-MxlokLRx9"
+        },
+        {
+          "sourceId": "gd-plataforma",
+          "moduleId": 72,
+          "videoId": 72,
+          "url": "https://www.youtube.com/playlist?list=PLW-9djkTMdfVNJD9aEnoOzkrU8dUoD7j4"
+        },
+        {
+          "sourceId": "gd-mobile2d",
+          "moduleId": 73,
+          "videoId": 73,
+          "url": "https://www.youtube.com/playlist?list=PLw7F758vrsxxkQexyaLfKiAU2wo7BQXN9"
+        },
+        {
+          "sourceId": "gd-rpg2d",
+          "moduleId": 74,
+          "videoId": 74,
+          "url": "https://www.youtube.com/playlist?list=PLm43vXIKl0F-1uxmGW84NmlJh6dob296f"
+        },
+        {
+          "sourceId": "gd-steam",
+          "moduleId": 75,
+          "videoId": 75,
+          "url": "https://www.youtube.com/watch?v=77N2pWM5f0E"
+        }
+      ]
+    },
+    {
+      "sourceId": "hacker",
+      "id": 9,
+      "name": "Hacker",
+      "courses": [
+        {
+          "sourceId": "hk-linux",
+          "moduleId": 76,
+          "videoId": 76,
+          "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7"
+        },
+        {
+          "sourceId": "hk-redes",
+          "moduleId": 77,
+          "videoId": 77,
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dkd4lr9G0Up-W-YaHYdTDuP"
+        },
+        {
+          "sourceId": "hk-investigacao",
+          "moduleId": 78,
+          "videoId": 78,
+          "url": "https://www.youtube.com/playlist?list=PL3q2xAxCvADm0ihDxIdutf8mLZsn-lcCY"
+        },
+        {
+          "sourceId": "hk-pericia",
+          "moduleId": 79,
+          "videoId": 79,
+          "url": "https://www.youtube.com/playlist?list=PLSVwmQp6yjLSIzChVcFdKEKiBOcXYRhdh"
+        },
+        {
+          "sourceId": "hk-seguranca",
+          "moduleId": 80,
+          "videoId": 80,
+          "url": "https://www.youtube.com/playlist?list=PLAp37wMSBouB70jGTeT0JjW_LNC_JBHCo"
+        },
+        {
+          "sourceId": "hk-cripto",
+          "moduleId": 81,
+          "videoId": 81,
+          "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNred_fII4GzZxMi91PKbney"
+        },
+        {
+          "sourceId": "hk-pentest",
+          "moduleId": 82,
+          "videoId": 82,
+          "url": "https://www.youtube.com/playlist?list=PLp95aw034Wn8Wi0NViVF58hOpX-m00jyg"
+        },
+        {
+          "sourceId": "hk-exploits",
+          "moduleId": 83,
+          "videoId": 83,
+          "url": "https://www.youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN"
+        },
+        {
+          "sourceId": "hk-ctf",
+          "moduleId": 84,
+          "videoId": 84,
+          "url": "https://www.youtube.com/watch?v=gO26V0B7kQw"
+        }
+      ]
+    },
+    {
+      "sourceId": "devops",
+      "id": 10,
+      "name": "DevOps",
+      "courses": [
+        {
+          "sourceId": "do-linux",
+          "moduleId": 85,
+          "videoId": 85,
+          "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7"
+        },
+        {
+          "sourceId": "do-redes",
+          "moduleId": 86,
+          "videoId": 86,
+          "url": "https://www.youtube.com/playlist?list=PLXoSGejyuQGpf4X-NdGjvSlEFZhn2f2H7"
+        },
+        {
+          "sourceId": "do-shell",
+          "moduleId": 87,
+          "videoId": 87,
+          "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNrYgjXC8_CgbvHbvI7dDfhs"
+        },
+        {
+          "sourceId": "do-ansible",
+          "moduleId": 88,
+          "videoId": 88,
+          "url": "https://www.youtube.com/playlist?list=PLORF-y_edVoDQnky9u2OgyrfirE1dhutX"
+        },
+        {
+          "sourceId": "do-docker",
+          "moduleId": 89,
+          "videoId": 89,
+          "url": "https://www.youtube.com/playlist?list=PLg7nVxv7fa6dxsV1ftKI8FAm4YD6iZuI4"
+        },
+        {
+          "sourceId": "do-descomplicando",
+          "moduleId": 90,
+          "videoId": 90,
+          "url": "https://www.youtube.com/playlist?list=PLf-O3X2-mxDn1VpyU2q3fuI6YYeIWp5rR"
+        },
+        {
+          "sourceId": "do-compose",
+          "moduleId": 91,
+          "videoId": 91,
+          "url": "https://www.youtube.com/watch?v=yb2udL9GG2U"
+        },
+        {
+          "sourceId": "do-k8s-intro",
+          "moduleId": 92,
+          "videoId": 92,
+          "url": "https://www.youtube.com/playlist?list=PLXzx948cNtr8XI5JBemHT9OWuYSPNUtXs"
+        },
+        {
+          "sourceId": "do-k8s-intensivo",
+          "moduleId": 93,
+          "videoId": 93,
+          "url": "https://www.youtube.com/watch?v=5unI7VPnASM"
+        },
+        {
+          "sourceId": "do-gitflow",
+          "moduleId": 94,
+          "videoId": 94,
+          "url": "https://www.youtube.com/watch?v=dJjVr6Ya7B8"
+        },
+        {
+          "sourceId": "do-cicd",
+          "moduleId": 95,
+          "videoId": 95,
+          "url": "https://www.youtube.com/watch?v=df_WMXk7JxE"
+        }
+      ]
+    },
+    {
+      "sourceId": "cyber",
+      "id": 11,
+      "name": "CyberSecurity",
+      "courses": [
+        {
+          "sourceId": "cy-cs50",
+          "moduleId": 96,
+          "videoId": 96,
+          "url": "https://www.edx.org/learn/cybersecurity/harvard-university-cs50-s-introduction-to-cybersecurity"
+        },
+        {
+          "sourceId": "cy-fund",
+          "moduleId": 97,
+          "videoId": 97,
+          "url": "https://www.udemy.com/course/certified-secure-netizen/"
+        },
+        {
+          "sourceId": "cy-eucap",
+          "moduleId": 98,
+          "videoId": 98,
+          "url": "https://www.eucapacito.com.br/cursos/cybersecurity/"
+        },
+        {
+          "sourceId": "cy-zap",
+          "moduleId": 99,
+          "videoId": 99,
+          "url": "https://www.udemy.com/course/owasp-zap-from-scratch/"
+        },
+        {
+          "sourceId": "cy-pentest",
+          "moduleId": 100,
+          "videoId": 100,
+          "url": "https://solyd.com.br/cursos/introducao-ao-hacking-e-pentest-2/"
+        },
+        {
+          "sourceId": "cy-siem",
+          "moduleId": 101,
+          "videoId": 101,
+          "url": "https://www.elastic.co/docs/solutions/security/get-started/get-started-detect-with-siem"
+        },
+        {
+          "sourceId": "cy-sast-dast-iast",
+          "moduleId": 102,
+          "videoId": 102,
+          "url": "https://www.youtube.com/watch?v=t7gAbULSEaw"
+        },
+        {
+          "sourceId": "cy-rasp",
+          "moduleId": 103,
+          "videoId": 103,
+          "url": "https://blog.convisoappsec.com/rasp-no-cenario-de-appsec/"
+        },
+        {
+          "sourceId": "cy-lgpd",
+          "moduleId": 104,
+          "videoId": 104,
+          "url": "https://www.escolavirtual.gov.br/curso/603"
+        },
+        {
+          "sourceId": "cy-cripto1",
+          "moduleId": 105,
+          "videoId": 105,
+          "url": "https://www.youtube.com/watch?v=CcU5Kc_FN_4"
+        },
+        {
+          "sourceId": "cy-cripto2",
+          "moduleId": 106,
+          "videoId": 106,
+          "url": "https://www.youtube.com/watch?v=HCHqtpipwu4"
+        },
+        {
+          "sourceId": "cy-chaves",
+          "moduleId": 107,
+          "videoId": 107,
+          "url": "https://www.youtube.com/watch?v=7BEsfupYngE"
+        },
+        {
+          "sourceId": "cy-reverse",
+          "moduleId": 108,
+          "videoId": 108,
+          "url": "https://www.youtube.com/playlist?list=PLIfZMtpPYFP6zLKlnyAeWY1I85VpyshAA"
+        },
+        {
+          "sourceId": "cy-forense",
+          "moduleId": 109,
+          "videoId": 109,
+          "url": "https://www.youtube.com/watch?v=bUqu8fh7xUg"
+        },
+        {
+          "sourceId": "cy-python-pentest",
+          "moduleId": 110,
+          "videoId": 110,
+          "url": "https://www.youtube.com/playlist?list=PLSVwmQp6yjLR6JlSFIQ7XyWVeO_IjLmM1"
+        }
+      ]
+    },
+    {
+      "sourceId": "embarcados",
+      "id": 12,
+      "name": "Embarcados",
+      "courses": [
+        {
+          "sourceId": "em-microeletronica",
+          "moduleId": 111,
+          "videoId": 111,
+          "url": "https://integra.univesp.br/courses/2344"
+        },
+        {
+          "sourceId": "em-c-moderno",
+          "moduleId": 112,
+          "videoId": 112,
+          "url": "https://www.youtube.com/playlist?list=PLIfZMtpPYFP5qaS2RFQxcNVkmJLGQwyKE"
+        },
+        {
+          "sourceId": "em-c-extra",
+          "moduleId": 113,
+          "videoId": 113,
+          "url": "https://www.youtube.com/playlist?list=PLLCFxfe9wkl-tCZvSCbzQGcNv9nSN5ZAP"
+        },
+        {
+          "sourceId": "em-eletronica",
+          "moduleId": 114,
+          "videoId": 114,
+          "url": "https://www.youtube.com/playlist?list=PLfdR3_dt2rbcv2CmrbeT8wu50Yga0fjE8"
+        },
+        {
+          "sourceId": "em-eletronica-univesp",
+          "moduleId": 115,
+          "videoId": 115,
+          "url": "https://integra.univesp.br/courses/2710"
+        },
+        {
+          "sourceId": "em-arduino",
+          "moduleId": 116,
+          "videoId": 116,
+          "url": "https://www.youtube.com/playlist?list=PLZ8dBTV2_5HQpKzBt3nJex3Mbk7hmhFHl"
+        },
+        {
+          "sourceId": "em-microcontroladores",
+          "moduleId": 117,
+          "videoId": 117,
+          "url": "https://www.youtube.com/playlist?list=PLMdNWywlSE5QPsEeT_cXisUT366NS3U8R"
+        },
+        {
+          "sourceId": "em-stm32",
+          "moduleId": 118,
+          "videoId": 118,
+          "url": "https://www.youtube.com/playlist?list=PLMdNWywlSE5TtOxRm6frvH_om1NOyj33H"
+        },
+        {
+          "sourceId": "em-assembly",
+          "moduleId": 119,
+          "videoId": 119,
+          "url": "https://www.youtube.com/watch?v=JEE9RvwEDuo&list=PLw-GnG0Kv5F7UM9y-FUmw7sI5sjdbaSpe"
+        },
+        {
+          "sourceId": "em-cpp",
+          "moduleId": 120,
+          "videoId": 120,
+          "url": "https://www.youtube.com/playlist?list=PLIUc9-A-aPpqrzY3YuWDUOyQLOBCb5lck"
+        },
+        {
+          "sourceId": "em-freertos",
+          "moduleId": 121,
+          "videoId": 121,
+          "url": "https://www.youtube.com/playlist?list=PLU15eSNTfwrnlzgvMmb1NK7l0qNo8UMKr"
+        },
+        {
+          "sourceId": "em-mqtt",
+          "moduleId": 122,
+          "videoId": 122,
+          "url": "https://www.youtube.com/watch?v=WqHIFSYMHy0"
+        },
+        {
+          "sourceId": "em-lorawan",
+          "moduleId": 123,
+          "videoId": 123,
+          "url": "https://www.youtube.com/watch?v=iPGXyeHv5JQ&list=PLU15eSNTfwrnd1I835eFA124rd4CVGq3e"
+        },
+        {
+          "sourceId": "em-esp32",
+          "moduleId": 124,
+          "videoId": 124,
+          "url": "https://www.youtube.com/playlist?list=PLZ8dBTV2_5HS79fVexGTtCMDUp7kjnumS"
+        }
+      ]
+    },
+    {
+      "sourceId": "automation",
+      "id": 13,
+      "name": "Automação",
+      "courses": [
+        {
+          "sourceId": "au-logica",
+          "moduleId": 125,
+          "videoId": 125,
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "sourceId": "au-python",
+          "moduleId": 126,
+          "videoId": 126,
+          "url": "https://www.youtube.com/playlist?list=PL5TJqBvpXQv55oh1fRrBol4LSKEqUbVD0"
+        },
+        {
+          "sourceId": "au-git",
+          "moduleId": 127,
+          "videoId": 127,
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "sourceId": "au-linux",
+          "moduleId": 128,
+          "videoId": 128,
+          "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7"
+        },
+        {
+          "sourceId": "au-db",
+          "moduleId": 129,
+          "videoId": 129,
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "sourceId": "au-apis",
+          "moduleId": 130,
+          "videoId": 130,
+          "url": "https://www.youtube.com/playlist?list=PLpdAy0tYrnKy3TvpCT-x7kGqMQ5grk1Xq"
+        },
+        {
+          "sourceId": "au-python-auto",
+          "moduleId": 131,
+          "videoId": 131,
+          "url": "https://www.youtube.com/playlist?list=PLpdAy0tYrnKyjrY1Fr72DhmrRmeWI_5C8"
+        },
+        {
+          "sourceId": "au-n8n",
+          "moduleId": 132,
+          "videoId": 132,
+          "url": "https://www.youtube.com/playlist?list=PLPH5yL5ZVjjW7cRT4COVLiQqujaN3sHlG"
+        },
+        {
+          "sourceId": "au-llm",
+          "moduleId": 133,
+          "videoId": 133,
+          "url": "https://www.youtube.com/watch?v=-Ka4YKW7RwM"
+        }
+      ]
+    },
+    {
+      "sourceId": "data-engineering",
+      "id": 14,
+      "name": "Eng. de Dados",
+      "courses": [
+        {
+          "sourceId": "de-logica",
+          "moduleId": 134,
+          "videoId": 134,
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "sourceId": "de-git",
+          "moduleId": 135,
+          "videoId": 135,
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "sourceId": "de-python",
+          "moduleId": 136,
+          "videoId": 136,
+          "url": "https://www.youtube.com/playlist?list=PLLWTDkRZXQa9YyC1LMbuDTz3XVC4E9ZQA"
+        },
+        {
+          "sourceId": "de-sql",
+          "moduleId": 137,
+          "videoId": 137,
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "sourceId": "de-linux",
+          "moduleId": 138,
+          "videoId": 138,
+          "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7"
+        },
+        {
+          "sourceId": "de-redes-apis",
+          "moduleId": 139,
+          "videoId": 139,
+          "url": "https://www.youtube.com/playlist?list=PLpdAy0tYrnKy3TvpCT-x7kGqMQ5grk1Xq"
+        },
+        {
+          "sourceId": "de-pandas",
+          "moduleId": 140,
+          "videoId": 140,
+          "url": "https://www.youtube.com/playlist?list=PL3Fmwz_E1hXRWxIkP843DiDf0ZeqgftTy"
+        },
+        {
+          "sourceId": "de-etl",
+          "moduleId": 141,
+          "videoId": 141,
+          "url": "https://www.youtube.com/playlist?list=PL_b3PX9XGVYMW1w-68YmDv2kAl5Gfiuvx"
+        },
+        {
+          "sourceId": "de-dw",
+          "moduleId": 142,
+          "videoId": 142,
+          "url": "https://www.youtube.com/watch?v=kwUgGTfac8s"
+        },
+        {
+          "sourceId": "de-spark",
+          "moduleId": 143,
+          "videoId": 143,
+          "url": "https://www.youtube.com/playlist?list=PLjwVjYMyoFoFO-TvZuxmqe5nlfr8xG5lk"
+        },
+        {
+          "sourceId": "de-airflow",
+          "moduleId": 144,
+          "videoId": 144,
+          "url": "https://www.youtube.com/playlist?list=PLLNidqMOzeD5yXv9lDtBM-VJ5-1F-ZdXI"
+        },
+        {
+          "sourceId": "de-aws",
+          "moduleId": 145,
+          "videoId": 145,
+          "url": "https://www.youtube.com/playlist?list=PL62G310vn6nHwfC31Q2hqh-3nO-6Rceyd"
+        },
+        {
+          "sourceId": "de-bigdata",
+          "moduleId": 146,
+          "videoId": 146,
+          "url": "https://www.youtube.com/playlist?list=PLzKHEB8QCel8UIA2JfUTYQaUgvJa6mUog"
+        },
+        {
+          "sourceId": "de-docker-cicd",
+          "moduleId": 147,
+          "videoId": 147,
+          "url": "https://www.youtube.com/watch?v=df_WMXk7JxE"
+        }
+      ]
+    },
+    {
+      "sourceId": "blockchain",
+      "id": 15,
+      "name": "Blockchain",
+      "courses": [
+        {
+          "sourceId": "bc-logica",
+          "moduleId": 148,
+          "videoId": 148,
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "sourceId": "bc-git",
+          "moduleId": 149,
+          "videoId": 149,
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "sourceId": "bc-js",
+          "moduleId": 150,
+          "videoId": 150,
+          "url": "https://www.youtube.com/playlist?list=PLx4x_zx8csUg_AxxbVWHEyAJ6cBdsYc0T"
+        },
+        {
+          "sourceId": "bc-ts",
+          "moduleId": 151,
+          "videoId": 151,
+          "url": "https://www.youtube.com/playlist?list=PL9tY_tDo_Q0DOAzTaPnWYsryfNLsz1K6U"
+        },
+        {
+          "sourceId": "bc-htmlcss",
+          "moduleId": 152,
+          "videoId": 152,
+          "url": "https://www.youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP"
+        },
+        {
+          "sourceId": "bc-db",
+          "moduleId": 153,
+          "videoId": 153,
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "sourceId": "bc-redes",
+          "moduleId": 154,
+          "videoId": 154,
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dkd4lr9G0Up-W-YaHYdTDuP"
+        },
+        {
+          "sourceId": "bc-cripto",
+          "moduleId": 155,
+          "videoId": 155,
+          "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNred_fII4GzZxMi91PKbney"
+        },
+        {
+          "sourceId": "bc-blockchain",
+          "moduleId": 156,
+          "videoId": 156,
+          "url": "https://www.youtube.com/playlist?list=PL4PvbJTuGFzu1Xw5mMTvCLy4pY5S3ZBGO"
+        },
+        {
+          "sourceId": "bc-solidity",
+          "moduleId": 157,
+          "videoId": 157,
+          "url": "https://www.youtube.com/playlist?list=PLpaKFn4Q4GMNx8Ky143ycp2qCZ23WsFry"
+        },
+        {
+          "sourceId": "bc-ethers",
+          "moduleId": 158,
+          "videoId": 158,
+          "url": "https://www.youtube.com/playlist?list=PLPPrIZLm5juZfG49vbjRVti1NwAZ_IrdA"
+        },
+        {
+          "sourceId": "bc-security",
+          "moduleId": 159,
+          "videoId": 159,
+          "url": "https://www.youtube.com/watch?v=OvEpixdVs24"
+        }
+      ]
+    },
+    {
+      "sourceId": "qa",
+      "id": 16,
+      "name": "QA",
+      "courses": [
+        {
+          "sourceId": "qa-logica",
+          "moduleId": 160,
+          "videoId": 160,
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "sourceId": "qa-git",
+          "moduleId": 161,
+          "videoId": 161,
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "sourceId": "qa-fundamentos",
+          "moduleId": 162,
+          "videoId": 162,
+          "url": "https://www.youtube.com/playlist?list=PL0nYAInGtru1q0laP62tgjTWohsij782i"
+        },
+        {
+          "sourceId": "qa-htmlcss",
+          "moduleId": 163,
+          "videoId": 163,
+          "url": "https://www.youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP"
+        },
+        {
+          "sourceId": "qa-js",
+          "moduleId": 164,
+          "videoId": 164,
+          "url": "https://www.youtube.com/playlist?list=PL2Fdisxwzt_d590u3uad46W-kHA0PTjjw"
+        },
+        {
+          "sourceId": "qa-sql",
+          "moduleId": 165,
+          "videoId": 165,
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "sourceId": "qa-apis",
+          "moduleId": 166,
+          "videoId": 166,
+          "url": "https://www.youtube.com/playlist?list=PLEqTHftpM91OzKYUkpaEuByhSpJYc90Hs"
+        },
+        {
+          "sourceId": "qa-scrum",
+          "moduleId": 167,
+          "videoId": 167,
+          "url": "https://www.youtube.com/playlist?list=PLoGDMdX4pUAfso0bQWSZFgjEBlr2H9IBU"
+        },
+        {
+          "sourceId": "qa-jira",
+          "moduleId": 168,
+          "videoId": 168,
+          "url": "https://www.youtube.com/playlist?list=PL7NDvV6PnYODio6jp-dYLXPL8SQHzTJxy"
+        },
+        {
+          "sourceId": "qa-playwright",
+          "moduleId": 169,
+          "videoId": 169,
+          "url": "https://www.youtube.com/playlist?list=PLjN70jnl7au90KkTZDvlOFsmC6sLP3525"
+        },
+        {
+          "sourceId": "qa-api-auto",
+          "moduleId": 170,
+          "videoId": 170,
+          "url": "https://www.youtube.com/watch?v=-Ka4YKW7RwM"
+        },
+        {
+          "sourceId": "qa-cicd",
+          "moduleId": 171,
+          "videoId": 171,
+          "url": "https://www.youtube.com/watch?v=df_WMXk7JxE"
+        },
+        {
+          "sourceId": "qa-performance",
+          "moduleId": 172,
+          "videoId": 172,
+          "url": "https://www.youtube.com/watch?v=Azv3jxXkKeY"
+        }
+      ]
+    },
+    {
+      "sourceId": "uiux",
+      "id": 17,
+      "name": "UI / UX",
+      "courses": [
+        {
+          "sourceId": "ux-design",
+          "moduleId": 173,
+          "videoId": 173,
+          "url": "https://www.youtube.com/playlist?list=PLwgL9IEA0PxUl0eXSqqI_78rvlog15lHl"
+        },
+        {
+          "sourceId": "ux-ux",
+          "moduleId": 174,
+          "videoId": 174,
+          "url": "https://www.youtube.com/playlist?list=PLwgL9IEA0PxVxs3z5_q0Sl4zV7YkM8AAH"
+        },
+        {
+          "sourceId": "ux-figma",
+          "moduleId": 175,
+          "videoId": 175,
+          "url": "https://www.youtube.com/playlist?list=PLwgL9IEA0PxXzmOu0crRl9l6PT46nqtI9"
+        },
+        {
+          "sourceId": "ux-design-system",
+          "moduleId": 176,
+          "videoId": 176,
+          "url": "https://www.youtube.com/playlist?list=PLIJwVnx284qpM1YJj1Chw0sc2i48p6h6K"
+        },
+        {
+          "sourceId": "ux-htmlcss",
+          "moduleId": 177,
+          "videoId": 177,
+          "url": "https://www.youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP"
+        }
+      ]
+    },
+    {
+      "sourceId": "cloud",
+      "id": 18,
+      "name": "Cloud",
+      "courses": [
+        {
+          "sourceId": "cl-logica",
+          "moduleId": 178,
+          "videoId": 178,
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "sourceId": "cl-go",
+          "moduleId": 179,
+          "videoId": 179,
+          "url": "https://www.youtube.com/playlist?list=PLCKpcjBB_VlBsxJ9IseNxFllf-UFEXOdg"
+        },
+        {
+          "sourceId": "cl-git",
+          "moduleId": 180,
+          "videoId": 180,
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "sourceId": "cl-linux",
+          "moduleId": 181,
+          "videoId": 181,
+          "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7"
+        },
+        {
+          "sourceId": "cl-bash",
+          "moduleId": 182,
+          "videoId": 182,
+          "url": "https://www.youtube.com/playlist?list=PLXoSGejyuQGpf4X-NdGjvSlEFZhn2f2H7"
+        },
+        {
+          "sourceId": "cl-redes",
+          "moduleId": 183,
+          "videoId": 183,
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dkd4lr9G0Up-W-YaHYdTDuP"
+        },
+        {
+          "sourceId": "cl-db",
+          "moduleId": 184,
+          "videoId": 184,
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "sourceId": "cl-web",
+          "moduleId": 185,
+          "videoId": 185,
+          "url": "https://www.youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP"
+        },
+        {
+          "sourceId": "cl-aws",
+          "moduleId": 186,
+          "videoId": 186,
+          "url": "https://www.youtube.com/playlist?list=PL62G310vn6nHwfC31Q2hqh-3nO-6Rceyd"
+        },
+        {
+          "sourceId": "cl-docker",
+          "moduleId": 187,
+          "videoId": 187,
+          "url": "https://www.youtube.com/playlist?list=PLViOsriojeLrdw5VByn96gphHFxqH3O_N"
+        },
+        {
+          "sourceId": "cl-k8s",
+          "moduleId": 188,
+          "videoId": 188,
+          "url": "https://www.youtube.com/playlist?list=PLnOICPAPShyTwuLit7vP6In9kETQ0BSnQ"
+        },
+        {
+          "sourceId": "cl-terraform",
+          "moduleId": 189,
+          "videoId": 189,
+          "url": "https://www.youtube.com/playlist?list=PLWQmZVQayUUIgSmOj3GPH2BJcn0hOzIaP"
+        }
+      ]
+    },
+    {
+      "sourceId": "mobile",
+      "id": 19,
+      "name": "Mobile",
+      "courses": [
+        {
+          "sourceId": "mb-logica",
+          "moduleId": 190,
+          "videoId": 190,
+          "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
+        },
+        {
+          "sourceId": "mb-git",
+          "moduleId": 191,
+          "videoId": 191,
+          "url": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU"
+        },
+        {
+          "sourceId": "mb-kotlin",
+          "moduleId": 192,
+          "videoId": 192,
+          "url": "https://www.youtube.com/playlist?list=PLRHt7FXZbVCSExTvJ6_qTrt_K8NsL0l6N"
+        },
+        {
+          "sourceId": "mb-android-studio",
+          "moduleId": 193,
+          "videoId": 193,
+          "url": "https://www.youtube.com/playlist?list=PL50rZONmv8ZRsWj0L3rvSicPSEJl6sQ40"
+        },
+        {
+          "sourceId": "mb-compose",
+          "moduleId": 194,
+          "videoId": 194,
+          "url": "https://www.youtube.com/playlist?list=PLizN3WA8HR1yvdN7FcfYYc2zAvdAAgel6"
+        },
+        {
+          "sourceId": "mb-db",
+          "moduleId": 195,
+          "videoId": 195,
+          "url": "https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk"
+        },
+        {
+          "sourceId": "mb-firebase",
+          "moduleId": 196,
+          "videoId": 196,
+          "url": "https://www.youtube.com/playlist?list=PLizN3WA8HR1zcb5bX3Xq_eQ3h0ENJyQJ9"
+        },
+        {
+          "sourceId": "mb-coroutines",
+          "moduleId": 197,
+          "videoId": 197,
+          "url": "https://www.youtube.com/watch?v=A7ruUf4VI_o"
+        },
+        {
+          "sourceId": "mb-flow",
+          "moduleId": 198,
+          "videoId": 198,
+          "url": "https://www.youtube.com/watch?v=WKISEDyTQfc"
+        },
+        {
+          "sourceId": "mb-di",
+          "moduleId": 199,
+          "videoId": 199,
+          "url": "https://www.youtube.com/watch?v=G5EiL9Ul148"
+        },
+        {
+          "sourceId": "mb-tests",
+          "moduleId": 200,
+          "videoId": 200,
+          "url": "https://www.youtube.com/playlist?list=PL18bbNo7xuh9ZmqYhETZuEDP_x3Z8ql2H"
+        },
+        {
+          "sourceId": "mb-publish",
+          "moduleId": 201,
+          "videoId": 201,
+          "url": "https://www.youtube.com/watch?v=9wNp4CUJAGk"
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-11-14T19:51:44.453Z"
+}

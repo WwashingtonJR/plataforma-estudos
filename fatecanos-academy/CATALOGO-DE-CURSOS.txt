@@ -1,0 +1,853 @@
+FATECANOS ACADEMY — CATÁLOGO DE CURSOS
+Referência: https://jornadadevheroi.com/
+Levantamento: 2026-11-14T19:49:30.073Z
+Escopo: somente as 19 jornadas de carreira. Percursos acadêmicos excluídos.
+Total: 201 entradas de curso; 146 links distintos.
+A conclusão é registrada por curso; uma playlist pode conter várias aulas.
+A disponibilidade pública dos links não garante reprodução de cada vídeo em todos os dispositivos.
+
+1. Back End (8 cursos)
+  1. Lógica de Programação — Curso de Algoritmos e Lógica de Programação
+     Professor/canal indicado na fonte: Gustavo Guanabara
+     https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV
+     Tipo: playlist; verificação: available
+  2. Java bem firme — Maratona Java Virado no Jiraya
+     Professor/canal indicado na fonte: DevDojo
+     https://www.youtube.com/playlist?list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW
+     Tipo: playlist; verificação: available
+  3. Git e GitHub — Curso gratuito Git e GitHub
+     Professor/canal indicado na fonte: Tiago Matos
+     https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU
+     Tipo: playlist; verificação: available
+  4. SQL — Curso de SQL com MySQL (Completo)
+     Professor/canal indicado na fonte: Otávio Miranda
+     https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk
+     Tipo: playlist; verificação: available
+  5. APIs REST — Curso de Testes de API Rest
+     Professor/canal indicado na fonte: Julio de Lima
+     https://www.youtube.com/playlist?list=PLf8x7B3nFTl17WeEVj405tHlstiq1kNBX
+     Tipo: playlist; verificação: available
+  6. Spring Boot — Spring Boot Essentials 2
+     Professor/canal indicado na fonte: DevDojo
+     https://www.youtube.com/playlist?list=PL62G310vn6nFBIxp6ZwGnm8xMcGE3VA5H
+     Tipo: playlist; verificação: available
+  7. Docker Essencial — Docker Essencial
+     Professor/canal indicado na fonte: TechEduca
+     https://www.youtube.com/playlist?list=PLViOsriojeLrdw5VByn96gphHFxqH3O_N
+     Tipo: playlist; verificação: available
+  8. AWS — AWS White Belt
+     Professor/canal indicado na fonte: DevDojo
+     https://www.youtube.com/playlist?list=PL62G310vn6nHwfC31Q2hqh-3nO-6Rceyd
+     Tipo: playlist; verificação: available
+
+2. Front End (9 cursos)
+  1. HTML + CSS — Curso Completo de HTML e CSS
+     Professor/canal indicado na fonte: Matheus Battisti
+     https://youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP
+     Tipo: playlist; verificação: available
+  2. Lógica de Programação — Curso de Algoritmos e Lógica de Programação
+     Professor/canal indicado na fonte: Gustavo Guanabara
+     https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV
+     Tipo: playlist; verificação: available
+  3. Git + GitHub — Curso gratuito Git e GitHub
+     Professor/canal indicado na fonte: Tiago Matos
+     https://youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU
+     Tipo: playlist; verificação: available
+  4. JavaScript — Curso de JavaScript Completo
+     Professor/canal indicado na fonte: Matheus Battisti
+     https://youtube.com/playlist?list=PLnDvRpP8BneysKU8KivhnrVaKpILD3gZ6
+     Tipo: playlist; verificação: available
+  5. TypeScript — Curso de TypeScript
+     Professor/canal indicado na fonte: Glaucia Lemos
+     https://youtube.com/playlist?list=PL9tY_tDo_Q0DOAzTaPnWYsryfNLsz1K6U
+     Tipo: playlist; verificação: available
+  6. Consumo de API — Consumo de API com JavaScript
+     Professor/canal indicado na fonte: Matheus Battisti
+     https://youtube.com/playlist?list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP
+     Tipo: playlist; verificação: available
+  7. React — Curso de React Completo
+     Professor/canal indicado na fonte: Matheus Battisti
+     https://youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO
+     Tipo: playlist; verificação: available
+  8. UI / UX — UX/UI Design de Interface
+     Professor/canal indicado na fonte: Coursera
+     https://www.coursera.org/learn/ux-ui-design-de-interface
+     Tipo: external; verificação: external
+  9. Testes — Testes no Front End
+     Professor/canal indicado na fonte: Escola Front-end
+     https://youtube.com/playlist?list=PLRVYQGMz5x2Y4NhqFI48usszCOtfPELM2
+     Tipo: playlist; verificação: available
+
+3. Full Stack (10 cursos)
+  1. HTML e CSS — Curso Completo de HTML e CSS
+     Professor/canal indicado na fonte: Daniel Tapias Morales
+     https://www.youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP
+     Tipo: playlist; verificação: available
+  2. Git e GitHub — Curso gratuito Git e GitHub
+     Professor/canal indicado na fonte: Tiago Matos
+     https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU
+     Tipo: playlist; verificação: available
+  3. JavaScript — Curso de JavaScript Completo
+     Professor/canal indicado na fonte: Matheus Battisti
+     https://www.youtube.com/playlist?list=PLnDvRpP8BneysKU8KivhnrVaKpILD3gZ6
+     Tipo: playlist; verificação: available
+  4. React — Curso de React Completo
+     Professor/canal indicado na fonte: Matheus Battisti
+     https://www.youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO
+     Tipo: playlist; verificação: available
+  5. Node.js — Curso de Node.js
+     Professor/canal indicado na fonte: Rocketseat
+     https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B
+     Tipo: playlist; verificação: available
+  6. TypeScript em Node — Curso completo de Typescript em NodeJs
+     Professor/canal indicado na fonte: Glaucia Lemos
+     https://www.youtube.com/playlist?list=PL9tY_tDo_Q0DOAzTaPnWYsryfNLsz1K6U
+     Tipo: playlist; verificação: available
+  7. SQL com MySQL — Curso de SQL com MySQL (Completo)
+     Professor/canal indicado na fonte: Otávio Miranda
+     https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk
+     Tipo: playlist; verificação: available
+  8. API REST com Node e TS — Curso de API Rest, Node e Typescript
+     Professor/canal indicado na fonte: Matheus Battisti
+     https://www.youtube.com/playlist?list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP
+     Tipo: playlist; verificação: available
+  9. Docker Essencial — Docker Essencial
+     Professor/canal indicado na fonte: TechEduca
+     https://www.youtube.com/playlist?list=PLViOsriojeLrdw5VByn96gphHFxqH3O_N
+     Tipo: playlist; verificação: available
+  10. Projeto Fullstack — Curso Projeto Fullstack
+     Professor/canal indicado na fonte: Felipão
+     https://www.youtube.com/playlist?list=PL45Hr6NzteIJQyvk6v0T78Ye8IsGm0mYS
+     Tipo: playlist; verificação: available
+
+4. Ciência de Dados (10 cursos)
+  1. Python — Curso de Python - Gustavo Guanabara
+     Professor/canal indicado na fonte: Gustavo Guanabara
+     https://www.youtube.com/playlist?list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0
+     Tipo: playlist; verificação: available
+  2. Git e GitHub — Curso gratuito Git e GitHub
+     Professor/canal indicado na fonte: Tiago Matos
+     https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU
+     Tipo: playlist; verificação: available
+  3. SQL com MySQL — Curso de SQL com MySQL (Completo)
+     Professor/canal indicado na fonte: Otávio Miranda
+     https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk
+     Tipo: playlist; verificação: available
+  4. Analista de Dados — Curso Analista de Dados Python / Numpy
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PL3Fmwz_E1hXRWxIkP843DiDf0ZeqgftTy
+     Tipo: playlist; verificação: available
+  5. Python para ML — Curso Python para Machine Learning e Análise de Dados
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLyqOvdQmGdTR46HUxDA6Ymv4DGsIjvTQ-
+     Tipo: playlist; verificação: available
+  6. Power BI — Curso de Power BI - Do Básico ao Profissional
+     Professor/canal indicado na fonte: Prime Cursos do Brasil
+     https://www.youtube.com/playlist?list=PLFKhhNd35zq90tdc3PYpx4IA-SoxSNlmN
+     Tipo: playlist; verificação: available
+  7. Intro à Ciência de Dados — Introdução à Ciência de Dados 3.0
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLlDg_wRHtbjLWfS-rGguPi1qNetGQ6Ogr
+     Tipo: playlist; verificação: available
+  8. EstaTiDados — Trilha EstaTiDados – Data Science
+     Professor/canal indicado na fonte: EstaTiDados
+     https://www.youtube.com/playlist?list=PLjdDBZW3EmXe6hO2Rt5Q9I5wzRZ7j7K8P
+     Tipo: playlist; verificação: available
+  9. Scikit-Learn — Domine Machine Learning com Scikit-Learn e Google Colab
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PL8PS-tykU-MiZtXZAYjfSW5-2WN4FwCGA
+     Tipo: playlist; verificação: available
+  10. Intro à IA — Curso Grátis de Inteligência Artificial - Módulo 01
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLHz_AreHm4dm24MhlWJYiR_Rm7TFtvs6S
+     Tipo: playlist; verificação: available
+
+5. Inteligência Artificial (8 cursos)
+  1. Fundamentos de IA — Curso de Fundamentos de Inteligência Artificial
+     Professor/canal indicado na fonte: Gustavo Guanabara
+     https://www.youtube.com/playlist?list=PLHz_AreHm4dm24MhlWJYiR_Rm7TFtvs6S
+     Tipo: playlist; verificação: available
+  2. Python para IA — Curso Gratuito de Python para IA
+     Professor/canal indicado na fonte: Wikki Brasil
+     https://www.youtube.com/playlist?list=PLqurcgxgZi_hIxsdslFpTWSu5aRJFjve7
+     Tipo: playlist; verificação: available
+  3. Estatística para ML — Estatística para Machine Learning
+     Professor/canal indicado na fonte: Jhonatan Teixeira Rios
+     https://www.youtube.com/playlist?list=PLqGk0p_9aqwlwpKqrQk2t0vR7NQN-k0N5
+     Tipo: playlist; verificação: available
+  4. Machine Learning — Curso Completo de Machine Learning
+     Professor/canal indicado na fonte: Universo Discreto
+     https://www.youtube.com/playlist?list=PL-t7zzWJWPtzhZtI-bWWHFtCfxtjmBdIW
+     Tipo: playlist; verificação: available
+  5. Analista de Dados — Numpy — Curso Analista de Dados Python / Numpy
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PL3Fmwz_E1hXRWxIkP843DiDf0ZeqgftTy
+     Tipo: playlist; verificação: available
+  6. Deep Learning com PyTorch — Curso de Deep Learning — Redes Neurais com PyTorch
+     Professor/canal indicado na fonte: Programação Dinâmica
+     https://www.youtube.com/playlist?list=PL5TJqBvpXQv6cd1kade4kjwr8_QQj8j3k
+     Tipo: playlist; verificação: available
+  7. NLP com Python — Processamento de Linguagem Natural com Python
+     Professor/canal indicado na fonte: sentdex
+     https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL
+     Tipo: playlist; verificação: available
+  8. MLOps Zoomcamp — Curso MLOps Zoomcamp
+     Professor/canal indicado na fonte: DataTalksClub
+     https://www.youtube.com/playlist?list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK
+     Tipo: playlist; verificação: available
+
+6. Avançado (10 cursos)
+  1. Linux — Curso de Linux
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLnDvRpP8BnezDTtL8lm6C-UOJZn-xzALH
+     Tipo: playlist; verificação: available
+  2. SQL — Curso de SQL com MySQL (Completo)
+     Professor/canal indicado na fonte: Otávio Miranda
+     https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk
+     Tipo: playlist; verificação: available
+  3. NoSQL — Curso de NoSQL
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLfvOpw8k80WpKTtloa7fMbfPWL7D6X5cC
+     Tipo: playlist; verificação: available
+  4. Teste de API — Curso de Testes de API Rest
+     Professor/canal indicado na fonte: Julio de Lima
+     https://www.youtube.com/playlist?list=PLf8x7B3nFTl17WeEVj405tHlstiq1kNBX
+     Tipo: playlist; verificação: available
+  5. AWS — AWS White Belt
+     Professor/canal indicado na fonte: DevDojo
+     https://www.youtube.com/playlist?list=PL62G310vn6nHwfC31Q2hqh-3nO-6Rceyd
+     Tipo: playlist; verificação: available
+  6. Docker — Docker Essencial
+     Professor/canal indicado na fonte: TechEduca
+     https://www.youtube.com/playlist?list=PLViOsriojeLrdw5VByn96gphHFxqH3O_N
+     Tipo: playlist; verificação: available
+  7. GitHub Actions — GitHub Actions - CI/CD
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=df_WMXk7JxE
+     Tipo: video; verificação: available
+  8. Terraform — Curso de Terraform
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLWQmZVQayUUIgSmOj3GPH2BJcn0hOzIaP
+     Tipo: playlist; verificação: available
+  9. Kubernetes — Curso de Kubernetes
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLnOICPAPShyTwuLit7vP6In9kETQ0BSnQ
+     Tipo: playlist; verificação: available
+  10. Apache Kafka — Curso de Apache Kafka
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PL5aY_NrL1rjt_AZxj11kQjiTNLGg4ZaZA
+     Tipo: playlist; verificação: available
+
+7. O Louco Matemático (10 cursos)
+  1. Matemática Básica — Matemática Básica
+     Professor/canal indicado na fonte: Equaciona Com Paulo Pereira
+     https://www.youtube.com/playlist?list=PLTPg64KdGgYgFpOFt2TETLdEuBB4fvxxf
+     Tipo: playlist; verificação: available
+  2. Geometria & Funções — Geometria e Funções
+     Professor/canal indicado na fonte: Equaciona Com Paulo Pereira
+     https://www.youtube.com/playlist?list=PLTPg64KdGgYhy8stGM4z2_Hzb3zTfA77Z
+     Tipo: playlist; verificação: available
+  3. Lógica & Raciocínio — Lógica matemática e raciocínio lógico
+     Professor/canal indicado na fonte: Professor Ferretto
+     https://www.youtube.com/playlist?list=PLrDis1u8cwtYOH7vZU3vghV0GpLuRpLHA
+     Tipo: playlist; verificação: available
+  4. Matemática Discreta — Matemática Discreta
+     Professor/canal indicado na fonte: Univesp
+     https://www.youtube.com/playlist?list=PLdFLgROzdbuIf5UsBA_VxTqDVDihXlIYN
+     Tipo: playlist; verificação: available
+  5. Análise Combinatória — Curso Completo de Análise Combinatória
+     Professor/canal indicado na fonte: Professor Ferretto
+     https://www.youtube.com/playlist?list=PLzvYXXKDUPquxp8QqYzd-_O5tzbC4HaJl
+     Tipo: playlist; verificação: available
+  6. Pré-Cálculo — Pré-Cálculo
+     Professor/canal indicado na fonte: Possi Matemática
+     https://www.youtube.com/playlist?list=PLa_2246N48_rIbheR_al4oqeFCP8dHoQR
+     Tipo: playlist; verificação: available
+  7. Cálculo 1 — Cálculo 1
+     Professor/canal indicado na fonte: Equaciona Com Paulo Pereira
+     https://www.youtube.com/playlist?list=PLTPg64KdGgYhACfQUtMf3CuhWOfLoTf_a
+     Tipo: playlist; verificação: available
+  8. Álgebra Linear — Álgebra Linear
+     Professor/canal indicado na fonte: Lhaylla Crissaff
+     https://www.youtube.com/playlist?list=PLO3hBdfBc4pFef1zn1oZyYXLomL9MiX-C
+     Tipo: playlist; verificação: available
+  9. Estatística & Probabilidade — Curso de Estatística e Probabilidade
+     Professor/canal indicado na fonte: Me Salva!
+     https://www.youtube.com/playlist?list=PLA0675987914E07BB
+     Tipo: playlist; verificação: available
+  10. Teoria de Grafos — Teoria de Grafos
+     Professor/canal indicado na fonte: Bruno Holanda
+     https://www.youtube.com/playlist?list=PLrOyM49ctTx-xtyVeuO7ylclgXHd4ws9a
+     Tipo: playlist; verificação: available
+
+8. GameDev (10 cursos)
+  1. Lógica de Programação — Curso de Algoritmos e Lógica de Programação
+     Professor/canal indicado na fonte: Gustavo Guanabara
+     https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV
+     Tipo: playlist; verificação: available
+  2. Git e GitHub — Curso gratuito Git e GitHub
+     Professor/canal indicado na fonte: Tiago Matos
+     https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU
+     Tipo: playlist; verificação: available
+  3. C# — Curso de C#
+     Professor/canal indicado na fonte: Antônio Rocha
+     https://www.youtube.com/playlist?list=PLEI5qdfLBErZuMSareAo-TLTFYU9hGDsR
+     Tipo: playlist; verificação: available
+  4. Pixel Art Completo — Pixel Art Curso Completo
+     Professor/canal indicado na fonte: Renan Silva
+     https://www.youtube.com/playlist?list=PLYOZqxNe79xIUDs_xpzpcvFIt0lR5bQ5C
+     Tipo: playlist; verificação: available
+  5. Unity 6 — Curso Unity 6
+     Professor/canal indicado na fonte: Leandro Dotta
+     https://www.youtube.com/playlist?list=PLARDsRa4d7UyZF3cf9tbp_6vN3M737DY2
+     Tipo: playlist; verificação: available
+  6. Criando um Jogo 2D — Criando um Jogo 2D
+     Professor/canal indicado na fonte: Academia Unity
+     https://www.youtube.com/playlist?list=PLciEA-M4VWn284pBB2e29Vo-MxlokLRx9
+     Tipo: playlist; verificação: available
+  7. Plataforma 2D — Criando um jogo de plataforma 2D na Unity
+     Professor/canal indicado na fonte: Crie Seus Jogos
+     https://www.youtube.com/playlist?list=PLW-9djkTMdfVNJD9aEnoOzkrU8dUoD7j4
+     Tipo: playlist; verificação: available
+  8. Jogos 2D Mobile — Como criar JOGOS 2D no Unity PARA CELULAR
+     Professor/canal indicado na fonte: Gabriel Dechichi
+     https://www.youtube.com/playlist?list=PLw7F758vrsxxkQexyaLfKiAU2wo7BQXN9
+     Tipo: playlist; verificação: available
+  9. RPG 2D na Unity — Unity - Criando um RPG 2D
+     Professor/canal indicado na fonte: Two TV Games
+     https://www.youtube.com/playlist?list=PLm43vXIKl0F-1uxmGW84NmlJh6dob296f
+     Tipo: playlist; verificação: available
+  10. Publicar na Steam — Como Publicar na Steam
+     Professor/canal indicado na fonte: Indie Power
+     https://www.youtube.com/watch?v=77N2pWM5f0E
+     Tipo: video; verificação: available
+
+9. Hacker (9 cursos)
+  1. Linux — Curso de Linux
+     Professor/canal indicado na fonte: Bóson Treinamentos
+     https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7
+     Tipo: playlist; verificação: available
+  2. Redes de Computadores — Curso de Redes de Computadores
+     Professor/canal indicado na fonte: Gustavo Guanabara
+     https://www.youtube.com/playlist?list=PLHz_AreHm4dkd4lr9G0Up-W-YaHYdTDuP
+     Tipo: playlist; verificação: available
+  3. Investigação Digital — Curso de Investigação Digital
+     Professor/canal indicado na fonte: Aulão Bruno Fraga
+     https://www.youtube.com/playlist?list=PL3q2xAxCvADm0ihDxIdutf8mLZsn-lcCY
+     Tipo: playlist; verificação: available
+  4. Perícia Digital — Curso de Perícia Digital
+     Professor/canal indicado na fonte: Messias Eric
+     https://www.youtube.com/playlist?list=PLSVwmQp6yjLSIzChVcFdKEKiBOcXYRhdh
+     Tipo: playlist; verificação: available
+  5. Segurança com Prática — Curso de Segurança com Prática
+     Professor/canal indicado na fonte: Hardware Redes Brasil
+     https://www.youtube.com/playlist?list=PLAp37wMSBouB70jGTeT0JjW_LNC_JBHCo
+     Tipo: playlist; verificação: available
+  6. Segurança e Criptografia — Segurança e Criptografia
+     Professor/canal indicado na fonte: Bóson Treinamentos
+     https://www.youtube.com/playlist?list=PLucm8g_ezqNred_fII4GzZxMi91PKbney
+     Tipo: playlist; verificação: available
+  7. Hacking e Pentest 2.0 — Introdução ao Hacking e Pentest 2.0
+     Professor/canal indicado na fonte: Solyd
+     https://www.youtube.com/playlist?list=PLp95aw034Wn8Wi0NViVF58hOpX-m00jyg
+     Tipo: playlist; verificação: available
+  8. Exploits & CVEs — Exploits & CVEs
+     Professor/canal indicado na fonte: LiveOverflow
+     https://www.youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN
+     Tipo: playlist; verificação: available
+  9. Boas Práticas em CTF — Boas Práticas para um Bom CTF
+     Professor/canal indicado na fonte: HackoonSpace
+     https://www.youtube.com/watch?v=gO26V0B7kQw
+     Tipo: video; verificação: available
+
+10. DevOps (11 cursos)
+  1. Linux — Curso de Linux
+     Professor/canal indicado na fonte: Bóson Treinamentos
+     https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7
+     Tipo: playlist; verificação: available
+  2. Redes de Computadores — Curso de Redes de Computadores
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLXoSGejyuQGpf4X-NdGjvSlEFZhn2f2H7
+     Tipo: playlist; verificação: available
+  3. Shell Script — Curso de Shell Script
+     Professor/canal indicado na fonte: Bóson Treinamentos
+     https://www.youtube.com/playlist?list=PLucm8g_ezqNrYgjXC8_CgbvHbvI7dDfhs
+     Tipo: playlist; verificação: available
+  4. Ansible — Curso de Ansible
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLORF-y_edVoDQnky9u2OgyrfirE1dhutX
+     Tipo: playlist; verificação: available
+  5. Docker Completo — Curso Docker Completo
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLg7nVxv7fa6dxsV1ftKI8FAm4YD6iZuI4
+     Tipo: playlist; verificação: available
+  6. Descomplicando o Docker — Descomplicando o Docker
+     Professor/canal indicado na fonte: LinuxTips
+     https://www.youtube.com/playlist?list=PLf-O3X2-mxDn1VpyU2q3fuI6YYeIWp5rR
+     Tipo: playlist; verificação: available
+  7. Docker Compose & Deploy — Docker e Docker Compose do zero ao Deploy
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=yb2udL9GG2U
+     Tipo: video; verificação: available
+  8. Introdução ao Kubernetes — Curso de Introdução ao Kubernetes
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLXzx948cNtr8XI5JBemHT9OWuYSPNUtXs
+     Tipo: playlist; verificação: available
+  9. Intensivo Kubernetes — Intensivo Kubernetes: O mínimo que um dev precisa saber
+     Professor/canal indicado na fonte: Full Cycle
+     https://www.youtube.com/watch?v=5unI7VPnASM
+     Tipo: video; verificação: available
+  10. Intensivo Gitflow — Intensivo Gitflow
+     Professor/canal indicado na fonte: Full Cycle
+     https://www.youtube.com/watch?v=dJjVr6Ya7B8
+     Tipo: video; verificação: available
+  11. Desbravando CI/CD — Desbravando CI/CD
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=df_WMXk7JxE
+     Tipo: video; verificação: available
+
+11. CyberSecurity (15 cursos)
+  1. Intro à CiberSegurança — CS50's Introduction to Cybersecurity
+     Professor/canal indicado na fonte: Harvard University
+     https://www.edx.org/learn/cybersecurity/harvard-university-cs50-s-introduction-to-cybersecurity
+     Tipo: external; verificação: external
+  2. Fundamentos CiberSegurança — Certified Secure Netizen
+     Professor/canal indicado na fonte: Udemy
+     https://www.udemy.com/course/certified-secure-netizen/
+     Tipo: external; verificação: external
+  3. Cybersecurity — Cybersecurity
+     Professor/canal indicado na fonte: Eu Capacito
+     https://www.eucapacito.com.br/cursos/cybersecurity/
+     Tipo: external; verificação: external
+  4. OWASP ZAP do Zero — OWASP ZAP From Scratch
+     Professor/canal indicado na fonte: Udemy
+     https://www.udemy.com/course/owasp-zap-from-scratch/
+     Tipo: external; verificação: external
+  5. Hacking e Pentest — Introdução ao Hacking e Pentest
+     Professor/canal indicado na fonte: Solyd
+     https://solyd.com.br/cursos/introducao-ao-hacking-e-pentest-2/
+     Tipo: external; verificação: external
+  6. Sistema de SIEM — Get Started with SIEM
+     Professor/canal indicado na fonte: Elastic
+     https://www.elastic.co/docs/solutions/security/get-started/get-started-detect-with-siem
+     Tipo: external; verificação: external
+  7. SAST, DAST e IAST — SAST, DAST e IAST
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=t7gAbULSEaw
+     Tipo: video; verificação: available
+  10. RASP em AppSec — RASP no Cenário de AppSec
+     Professor/canal indicado na fonte: Conviso
+     https://blog.convisoappsec.com/rasp-no-cenario-de-appsec/
+     Tipo: external; verificação: external
+  11. Introdução à LGPD — Introdução à LGPD
+     Professor/canal indicado na fonte: Escola Virtual Gov
+     https://www.escolavirtual.gov.br/curso/603
+     Tipo: external; verificação: external
+  12. Criptografia Parte 1 — Criptografia — Parte 1
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=CcU5Kc_FN_4
+     Tipo: video; verificação: available
+  13. Criptografia Parte 2 — Criptografia — Parte 2
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=HCHqtpipwu4
+     Tipo: video; verificação: available
+  14. Chaves Públicas e Privadas — Configurar chaves públicas e privadas
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=7BEsfupYngE
+     Tipo: video; verificação: available
+  15. Engenharia Reversa — Curso de Engenharia Reversa
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLIfZMtpPYFP6zLKlnyAeWY1I85VpyshAA
+     Tipo: playlist; verificação: available
+  16. Forense Digital — Curso de Forense Digital
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=bUqu8fh7xUg
+     Tipo: video; verificação: available
+  17. Python para Pentesters — Curso Python para Pentesters
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLSVwmQp6yjLR6JlSFIQ7XyWVeO_IjLmM1
+     Tipo: playlist; verificação: available
+
+12. Embarcados (14 cursos)
+  1. Microeletrônica — Microeletrônica
+     Professor/canal indicado na fonte: Univesp
+     https://integra.univesp.br/courses/2344
+     Tipo: external; verificação: external
+  2. C Moderno — Curso de C Moderno
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLIfZMtpPYFP5qaS2RFQxcNVkmJLGQwyKE
+     Tipo: playlist; verificação: available
+  3. Programação em C — Curso de Programação em C
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLLCFxfe9wkl-tCZvSCbzQGcNv9nSN5ZAP
+     Tipo: playlist; verificação: available
+  4. Conceitos de Eletrônica — Conceitos de Eletrônica
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLfdR3_dt2rbcv2CmrbeT8wu50Yga0fjE8
+     Tipo: playlist; verificação: available
+  5. Eletrônica — Univesp — Curso de Eletrônica
+     Professor/canal indicado na fonte: Univesp
+     https://integra.univesp.br/courses/2710
+     Tipo: external; verificação: external
+  6. Arduino — Curso de Arduino
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLZ8dBTV2_5HQpKzBt3nJex3Mbk7hmhFHl
+     Tipo: playlist; verificação: available
+  7. Microcontroladores — Curso de Microcontroladores
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLMdNWywlSE5QPsEeT_cXisUT366NS3U8R
+     Tipo: playlist; verificação: available
+  8. STM32 — Curso de STM32
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLMdNWywlSE5TtOxRm6frvH_om1NOyj33H
+     Tipo: playlist; verificação: available
+  9. Assembly ATMega328 — Curso de Assembly para ATMega328
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=JEE9RvwEDuo&list=PLw-GnG0Kv5F7UM9y-FUmw7sI5sjdbaSpe
+     Tipo: playlist; verificação: available
+  10. C++ — Curso de C++
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLIUc9-A-aPpqrzY3YuWDUOyQLOBCb5lck
+     Tipo: playlist; verificação: available
+  11. FreeRTOS — Curso de FreeRTOS
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLU15eSNTfwrnlzgvMmb1NK7l0qNo8UMKr
+     Tipo: playlist; verificação: available
+  12. MQTT — Curso de MQTT
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=WqHIFSYMHy0
+     Tipo: video; verificação: available
+  13. LoRaWAN — Curso de LoRaWAN
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=iPGXyeHv5JQ&list=PLU15eSNTfwrnd1I835eFA124rd4CVGq3e
+     Tipo: playlist; verificação: available
+  14. ESP32 — Curso de ESP32
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLZ8dBTV2_5HS79fVexGTtCMDUp7kjnumS
+     Tipo: playlist; verificação: available
+
+13. Automação (9 cursos)
+  1. Lógica de Programação — Curso de Algoritmos e Lógica de Programação
+     Professor/canal indicado na fonte: Gustavo Guanabara
+     https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV
+     Tipo: playlist; verificação: available
+  2. Python — Curso de Python
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PL5TJqBvpXQv55oh1fRrBol4LSKEqUbVD0
+     Tipo: playlist; verificação: available
+  3. Git e GitHub — Curso gratuito Git e GitHub
+     Professor/canal indicado na fonte: Tiago Matos
+     https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU
+     Tipo: playlist; verificação: available
+  4. Linux — Curso de Linux
+     Professor/canal indicado na fonte: Bóson Treinamentos
+     https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7
+     Tipo: playlist; verificação: available
+  5. Bancos de Dados — Curso de SQL com MySQL (Completo)
+     Professor/canal indicado na fonte: Otávio Miranda
+     https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk
+     Tipo: playlist; verificação: available
+  6. APIs — Curso de APIs
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLpdAy0tYrnKy3TvpCT-x7kGqMQ5grk1Xq
+     Tipo: playlist; verificação: available
+  7. Python para Automação — Python para Automação
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLpdAy0tYrnKyjrY1Fr72DhmrRmeWI_5C8
+     Tipo: playlist; verificação: available
+  8. n8n — Curso de n8n
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLPH5yL5ZVjjW7cRT4COVLiQqujaN3sHlG
+     Tipo: playlist; verificação: available
+  9. IA e LLMs — IA e Automação com LLMs
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=-Ka4YKW7RwM
+     Tipo: video; verificação: available
+
+14. Eng. de Dados (14 cursos)
+  1. Lógica de Programação — Curso de Algoritmos e Lógica de Programação
+     Professor/canal indicado na fonte: Gustavo Guanabara
+     https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV
+     Tipo: playlist; verificação: available
+  2. Git e GitHub — Curso gratuito Git e GitHub
+     Professor/canal indicado na fonte: Tiago Matos
+     https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU
+     Tipo: playlist; verificação: available
+  3. Python — Curso de Python
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLLWTDkRZXQa9YyC1LMbuDTz3XVC4E9ZQA
+     Tipo: playlist; verificação: available
+  4. SQL — Curso de SQL com MySQL (Completo)
+     Professor/canal indicado na fonte: Otávio Miranda
+     https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk
+     Tipo: playlist; verificação: available
+  5. Linux — Curso de Linux
+     Professor/canal indicado na fonte: Bóson Treinamentos
+     https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7
+     Tipo: playlist; verificação: available
+  6. Redes e APIs — Curso de Redes e APIs
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLpdAy0tYrnKy3TvpCT-x7kGqMQ5grk1Xq
+     Tipo: playlist; verificação: available
+  7. Pandas e NumPy — Pandas e NumPy
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PL3Fmwz_E1hXRWxIkP843DiDf0ZeqgftTy
+     Tipo: playlist; verificação: available
+  8. ETL / ELT — ETL/ELT
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PL_b3PX9XGVYMW1w-68YmDv2kAl5Gfiuvx
+     Tipo: playlist; verificação: available
+  9. Data Warehouse — Data Warehouse
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=kwUgGTfac8s
+     Tipo: video; verificação: available
+  10. Apache Spark — Apache Spark
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLjwVjYMyoFoFO-TvZuxmqe5nlfr8xG5lk
+     Tipo: playlist; verificação: available
+  11. Apache Airflow — Apache Airflow
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLLNidqMOzeD5yXv9lDtBM-VJ5-1F-ZdXI
+     Tipo: playlist; verificação: available
+  12. AWS — AWS
+     Professor/canal indicado na fonte: DevDojo
+     https://www.youtube.com/playlist?list=PL62G310vn6nHwfC31Q2hqh-3nO-6Rceyd
+     Tipo: playlist; verificação: available
+  13. Big Data — Big Data
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLzKHEB8QCel8UIA2JfUTYQaUgvJa6mUog
+     Tipo: playlist; verificação: available
+  14. Docker e CI/CD — Docker e CI/CD
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=df_WMXk7JxE
+     Tipo: video; verificação: available
+
+15. Blockchain (12 cursos)
+  1. Lógica de Programação — Curso de Algoritmos e Lógica de Programação
+     Professor/canal indicado na fonte: Gustavo Guanabara
+     https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV
+     Tipo: playlist; verificação: available
+  2. Git e GitHub — Curso gratuito Git e GitHub
+     Professor/canal indicado na fonte: Tiago Matos
+     https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU
+     Tipo: playlist; verificação: available
+  3. JavaScript — Curso de JavaScript
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLx4x_zx8csUg_AxxbVWHEyAJ6cBdsYc0T
+     Tipo: playlist; verificação: available
+  4. TypeScript — Curso de TypeScript
+     Professor/canal indicado na fonte: Glaucia Lemos
+     https://www.youtube.com/playlist?list=PL9tY_tDo_Q0DOAzTaPnWYsryfNLsz1K6U
+     Tipo: playlist; verificação: available
+  5. HTML e CSS — Curso Completo de HTML e CSS
+     Professor/canal indicado na fonte: Daniel Tapias Morales
+     https://www.youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP
+     Tipo: playlist; verificação: available
+  6. Banco de Dados — Curso de SQL com MySQL (Completo)
+     Professor/canal indicado na fonte: Otávio Miranda
+     https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk
+     Tipo: playlist; verificação: available
+  7. Redes de Computadores — Curso de Redes de Computadores
+     Professor/canal indicado na fonte: Gustavo Guanabara
+     https://www.youtube.com/playlist?list=PLHz_AreHm4dkd4lr9G0Up-W-YaHYdTDuP
+     Tipo: playlist; verificação: available
+  8. Criptografia — Segurança e Criptografia
+     Professor/canal indicado na fonte: Bóson Treinamentos
+     https://www.youtube.com/playlist?list=PLucm8g_ezqNred_fII4GzZxMi91PKbney
+     Tipo: playlist; verificação: available
+  9. Blockchain — Curso de Blockchain
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PL4PvbJTuGFzu1Xw5mMTvCLy4pY5S3ZBGO
+     Tipo: playlist; verificação: available
+  10. Solidity — Curso de Solidity
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLpaKFn4Q4GMNx8Ky143ycp2qCZ23WsFry
+     Tipo: playlist; verificação: available
+  11. Ethers.js — Curso de Ethers.js
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLPPrIZLm5juZfG49vbjRVti1NwAZ_IrdA
+     Tipo: playlist; verificação: available
+  12. Segurança de Smart Contracts — Segurança de Smart Contracts
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=OvEpixdVs24
+     Tipo: video; verificação: available
+
+16. QA (13 cursos)
+  1. Lógica de Programação — Curso de Algoritmos e Lógica de Programação
+     Professor/canal indicado na fonte: Gustavo Guanabara
+     https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV
+     Tipo: playlist; verificação: available
+  2. Git e GitHub — Curso gratuito Git e GitHub
+     Professor/canal indicado na fonte: Tiago Matos
+     https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU
+     Tipo: playlist; verificação: available
+  3. Fundamentos de QA — Fundamentos de QA
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PL0nYAInGtru1q0laP62tgjTWohsij782i
+     Tipo: playlist; verificação: available
+  4. HTML e CSS — Curso Completo de HTML e CSS
+     Professor/canal indicado na fonte: Daniel Tapias Morales
+     https://www.youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP
+     Tipo: playlist; verificação: available
+  5. JavaScript — Curso de JavaScript
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PL2Fdisxwzt_d590u3uad46W-kHA0PTjjw
+     Tipo: playlist; verificação: available
+  6. Banco de Dados (SQL) — Curso de SQL com MySQL (Completo)
+     Professor/canal indicado na fonte: Otávio Miranda
+     https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk
+     Tipo: playlist; verificação: available
+  7. APIs e Postman — APIs e Postman
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLEqTHftpM91OzKYUkpaEuByhSpJYc90Hs
+     Tipo: playlist; verificação: available
+  8. Scrum — Scrum
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLoGDMdX4pUAfso0bQWSZFgjEBlr2H9IBU
+     Tipo: playlist; verificação: available
+  9. Jira — Jira
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PL7NDvV6PnYODio6jp-dYLXPL8SQHzTJxy
+     Tipo: playlist; verificação: available
+     Observação do YouTube: 1 vídeo indisponível está oculto
+  10. Playwright — Playwright
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLjN70jnl7au90KkTZDvlOFsmC6sLP3525
+     Tipo: playlist; verificação: available
+  11. Automação de APIs — Automação de APIs
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=-Ka4YKW7RwM
+     Tipo: video; verificação: available
+  12. CI/CD — CI/CD
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=df_WMXk7JxE
+     Tipo: video; verificação: available
+  13. Testes de Performance — Testes de Performance
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=Azv3jxXkKeY
+     Tipo: video; verificação: available
+
+17. UI / UX (5 cursos)
+  1. Fundamentos do Design — Fundamentos do Design
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLwgL9IEA0PxUl0eXSqqI_78rvlog15lHl
+     Tipo: playlist; verificação: available
+  2. UX — Curso de UX
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLwgL9IEA0PxVxs3z5_q0Sl4zV7YkM8AAH
+     Tipo: playlist; verificação: available
+  3. Figma — Curso de Figma
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLwgL9IEA0PxXzmOu0crRl9l6PT46nqtI9
+     Tipo: playlist; verificação: available
+  4. Design System — Curso de Design System
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLIJwVnx284qpM1YJj1Chw0sc2i48p6h6K
+     Tipo: playlist; verificação: available
+  5. HTML e CSS — Curso Completo de HTML e CSS
+     Professor/canal indicado na fonte: Daniel Tapias Morales
+     https://www.youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP
+     Tipo: playlist; verificação: available
+
+18. Cloud (12 cursos)
+  1. Lógica de Programação — Curso de Algoritmos e Lógica de Programação
+     Professor/canal indicado na fonte: Gustavo Guanabara
+     https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV
+     Tipo: playlist; verificação: available
+  2. Go — Curso de Go (Golang)
+     Professor/canal indicado na fonte: Aprenda Go
+     https://www.youtube.com/playlist?list=PLCKpcjBB_VlBsxJ9IseNxFllf-UFEXOdg
+     Tipo: playlist; verificação: available
+  3. Git e GitHub — Curso gratuito Git e GitHub
+     Professor/canal indicado na fonte: Tiago Matos
+     https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU
+     Tipo: playlist; verificação: available
+  4. Linux — Curso de Linux
+     Professor/canal indicado na fonte: Bóson Treinamentos
+     https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7
+     Tipo: playlist; verificação: available
+  5. Bash — Curso Básico de Bash
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLXoSGejyuQGpf4X-NdGjvSlEFZhn2f2H7
+     Tipo: playlist; verificação: available
+  6. Redes de Computadores — Curso de Redes de Computadores
+     Professor/canal indicado na fonte: Gustavo Guanabara
+     https://www.youtube.com/playlist?list=PLHz_AreHm4dkd4lr9G0Up-W-YaHYdTDuP
+     Tipo: playlist; verificação: available
+  7. Banco de Dados — Curso de SQL com MySQL (Completo)
+     Professor/canal indicado na fonte: Otávio Miranda
+     https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk
+     Tipo: playlist; verificação: available
+  8. Desenvolvimento Web Básico — Curso Completo de HTML e CSS
+     Professor/canal indicado na fonte: Daniel Tapias Morales
+     https://www.youtube.com/playlist?list=PL1dUY2RYa2RhNhm-QTuNIifVpc59wrpFP
+     Tipo: playlist; verificação: available
+  9. AWS — AWS
+     Professor/canal indicado na fonte: DevDojo
+     https://www.youtube.com/playlist?list=PL62G310vn6nHwfC31Q2hqh-3nO-6Rceyd
+     Tipo: playlist; verificação: available
+  10. Docker — Docker Essencial
+     Professor/canal indicado na fonte: TechEduca
+     https://www.youtube.com/playlist?list=PLViOsriojeLrdw5VByn96gphHFxqH3O_N
+     Tipo: playlist; verificação: available
+  11. Kubernetes — Kubernetes
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLnOICPAPShyTwuLit7vP6In9kETQ0BSnQ
+     Tipo: playlist; verificação: available
+  12. Terraform — Terraform
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLWQmZVQayUUIgSmOj3GPH2BJcn0hOzIaP
+     Tipo: playlist; verificação: available
+
+19. Mobile (12 cursos)
+  1. Lógica de Programação — Curso de Algoritmos e Lógica de Programação
+     Professor/canal indicado na fonte: Gustavo Guanabara
+     https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV
+     Tipo: playlist; verificação: available
+  2. Git e GitHub — Curso gratuito Git e GitHub
+     Professor/canal indicado na fonte: Tiago Matos
+     https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU
+     Tipo: playlist; verificação: available
+  3. Kotlin — Curso de Kotlin
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLRHt7FXZbVCSExTvJ6_qTrt_K8NsL0l6N
+     Tipo: playlist; verificação: available
+  4. Android Studio — Curso de Android Studio
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PL50rZONmv8ZRsWj0L3rvSicPSEJl6sQ40
+     Tipo: playlist; verificação: available
+  5. Jetpack Compose — Jetpack Compose
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLizN3WA8HR1yvdN7FcfYYc2zAvdAAgel6
+     Tipo: playlist; verificação: available
+  6. Bancos de Dados — Curso de SQL com MySQL (Completo)
+     Professor/canal indicado na fonte: Otávio Miranda
+     https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk
+     Tipo: playlist; verificação: available
+  7. Firebase — Curso de Firebase
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PLizN3WA8HR1zcb5bX3Xq_eQ3h0ENJyQJ9
+     Tipo: playlist; verificação: available
+  8. Coroutines — Coroutines do Kotlin
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=A7ruUf4VI_o
+     Tipo: video; verificação: available
+  9. Kotlin Flow — Kotlin Flow
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=WKISEDyTQfc
+     Tipo: video; verificação: available
+  10. Injeção de Dependência — Injeção de Dependência
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=G5EiL9Ul148
+     Tipo: video; verificação: available
+  11. Testes Unitários — Testes Unitários
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/playlist?list=PL18bbNo7xuh9ZmqYhETZuEDP_x3Z8ql2H
+     Tipo: playlist; verificação: available
+  12. Publicar na Google Play — Publicar um aplicativo na Google Play
+     Professor/canal indicado na fonte: Canal do YouTube
+     https://www.youtube.com/watch?v=9wNp4CUJAGk
+     Tipo: video; verificação: available
+
+Materiais externos continuam no site do autor; não foram substituídos por cursos de outras fontes.
+LISTAS DE AULAS: 5421 registros de aulas públicas em 108 playlists distintas, com paginação conferida (incluindo as 286 aulas da Maratona Java). As playlists podem compartilhar vídeos. Vídeos privados/ocultos não são incluídos.

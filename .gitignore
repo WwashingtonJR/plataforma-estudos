@@ -37,3 +37,11 @@ login.json
 cadastro.json
 perfil.json
 trilha.json
+
+# Segredos e arquivos locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
