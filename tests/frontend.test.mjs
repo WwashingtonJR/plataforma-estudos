@@ -45,6 +45,7 @@ let user = { nome:'Ana', email:'teste@example.test', instituicao:'Fatec', papel:
 let finished = [];
 let started = [];
 let agenda = [];
+let stallCourses = false;
 const projects = [{titulo:'Fatecanos Academy',descricao:'Plataforma de estudos.',autor:'Washington Junior',
   githubUrl:'https://github.com/WwashingtonJR/plataforma-estudos',demoUrl:'/',destaque:true,status:'APROVADO'}];
 let canReview = false;
@@ -82,7 +83,14 @@ globalThis.fetch = async (url, options) => {
    completedChapters.add(p.split('/').at(-1));
    return Response.json({aulasConcluidas:[...completedChapters],cursoConcluido:false});
  }
- if (p==='/progresso/em-andamento') return Response.json(started.filter(course => !finished.includes(course.videoId)));
+ if (p==='/progresso/em-andamento') {
+   if (stallCourses) {
+     return new Promise((_, reject) => {
+       options.signal.addEventListener('abort', () => reject(options.signal.reason), { once:true });
+     });
+   }
+   return Response.json(started.filter(course => !finished.includes(course.videoId)));
+ }
  if (p==='/agenda' && options.method==='POST') {
    const entry={id:1,...body};
    agenda.push(entry);
@@ -203,7 +211,27 @@ assert.match(root.textContent,/0 de 2 cursos concluídos/);
 await visit('#/aula/1/2/21');
 assert.equal(find(e=>e.tag==='iframe').attributes.src,'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?playsinline=1');
 assert.doesNotMatch(root.textContent,/Abrir no YouTube/);
-await visit('#/inicio');
+const originalTimeout = AbortSignal.timeout;
+const deadline = new AbortController();
+AbortSignal.timeout = () => deadline.signal;
+stallCourses = true;
+try {
+  await visit('#/inicio');
+  assert.match(root.textContent,/Olá, Ana/);
+  assert.match(root.textContent,/Notícias da semana/);
+  assert.match(root.textContent,/Calendário/);
+  assert.match(root.textContent,/Carregando seus cursos/);
+  assert.equal(find(e=>e.attributes.href==='#/inicio'&&e.textContent==='Início').attributes['aria-current'],'page');
+  deadline.abort(new DOMException('Tempo esgotado', 'TimeoutError'));
+  await flush();
+  assert.match(root.textContent,/Não foi possível carregar seus cursos/);
+  assert.match(root.textContent,/Calendário/);
+} finally {
+  AbortSignal.timeout = originalTimeout;
+  stallCourses = false;
+}
+find(e=>e.tag==='button'&&e.textContent==='Tentar novamente').listeners.click();
+await flush();
 assert.equal(find(e=>e.tag==='a'&&e.textContent.includes('Retomar curso')).attributes.href,'#/aula/1/2/21');
 await visit('#/aula/1/2/21');
 await find(e=>e.textContent==='Concluir curso'&&e.tag==='button').listeners.click();

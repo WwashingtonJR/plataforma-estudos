@@ -34,6 +34,7 @@ const sorted = items => [...items].sort((a, b) => a.ordem - b.ordem || a.id - b.
 const trailUrl = id => `#/trilha/${id}`;
 const lessonUrl = (trail, module, video) => `#/aula/${trail}/${module}/${video}`;
 const get = (path, signal) => api(path, { signal });
+const getDashboardData = (path, signal) => get(path, AbortSignal.any([signal, AbortSignal.timeout(15_000)]));
 
 function signOut(message = '') {
   endSession();
@@ -363,6 +364,7 @@ function studyCalendar(today, signal) {
   const heading = node('h3', { class: 'calendar-selected' });
   const entries = node('ul', { class: 'calendar-events' });
   const feedback = errorText();
+  const loadFeedback = node('div');
   const status = node('p', { class: 'success', role: 'status' });
   const title = field('agenda-titulo', 'Nome do evento', { maxlength: '120', required: '', placeholder: 'Ex.: Prova de Java' });
   const type = node('select', { class: 'in', id: 'agenda-tipo', name: 'tipo' }, ...Object.entries(types)
@@ -468,23 +470,34 @@ function studyCalendar(today, signal) {
     },
   }, icon);
 
+  async function loadEvents() {
+    loadFeedback.replaceChildren();
+    try {
+      const data = await getDashboardData('/agenda', signal);
+      if (signal.aborted) return;
+      if (!Array.isArray(data)) throw new Error('Resposta inválida da agenda.');
+      events = data;
+      available = true;
+      add.disabled = false;
+      draw();
+    } catch {
+      if (signal.aborted) return;
+      loadFeedback.replaceChildren(
+        node('p', { class: 'er', role: 'alert' }, 'Não foi possível carregar seus eventos.'),
+        node('button', { class: 'btn calendar-add', type: 'button', onclick: loadEvents }, 'Recarregar eventos'),
+      );
+    }
+  }
+
   draw();
-  get('/agenda', signal).then(data => {
-    if (signal.aborted) return;
-    events = data;
-    available = true;
-    add.disabled = false;
-    draw();
-  }).catch(() => {
-    if (!signal.aborted) feedback.textContent = 'Não foi possível carregar seus eventos.';
-  });
+  loadEvents();
   return node('section', { class: 'home-panel study-calendar' }, node('h2', {}, 'Calendário'),
     node('div', { class: 'calendar-nav' }, monthButton(-1, 'Mês anterior', '‹'), monthLabel,
       monthButton(1, 'Próximo mês', '›')),
     node('table', { 'aria-labelledby': 'calendar-month' },
       node('thead', {}, node('tr', {}, ...weekdays.map(([short, full]) =>
         node('th', { scope: 'col', 'aria-label': full }, short)))), body),
-    heading, entries, add, form, feedback, status);
+    heading, entries, add, form, feedback, status, loadFeedback);
 }
 
 function visibleNews(today) {
@@ -593,18 +606,50 @@ function dashboardDates(news, today) {
       node('span', {}, item.event.label, node('small', {}, item.title)))))));
 }
 
-async function home({ signal }) {
-  const [profile, courses] = await Promise.all([
-    get('/usuarios/me', signal), get('/progresso/em-andamento', signal),
-  ]);
+function dashboardSection({ title, path, loading, failure, render }, signal) {
+  const container = node('div');
+  const state = content => node('section', { class: 'home-panel' }, node('h2', {}, title), content);
+
+  async function load() {
+    container.replaceChildren(state(node('p', { class: 'muted', role: 'status' }, loading)));
+    try {
+      const data = await getDashboardData(path, signal);
+      if (!signal.aborted) container.replaceChildren(render(data));
+    } catch {
+      if (signal.aborted) return;
+      container.replaceChildren(state([
+        node('p', { class: 'er', role: 'alert' }, failure),
+        node('button', { class: 'btn retry', type: 'button', onclick: load }, 'Tentar novamente'),
+      ]));
+    }
+  }
+
+  load();
+  return container;
+}
+
+function home({ signal }) {
   const today = new Date();
   const news = visibleNews(today);
+  const greeting = heading('Início');
+  const profile = dashboardSection({
+    title: 'Perfil', path: '/usuarios/me', loading: 'Carregando seu perfil…',
+    failure: 'Não foi possível carregar seu perfil.',
+    render: data => {
+      const panel = dashboardProfile(data);
+      greeting.textContent = `Olá, ${data.nome.trim().split(/\s+/)[0]}`;
+      return panel;
+    },
+  }, signal);
+  const courses = dashboardSection({
+    title: 'Meus cursos', path: '/progresso/em-andamento', loading: 'Carregando seus cursos…',
+    failure: 'Não foi possível carregar seus cursos.', render: dashboardCourses,
+  }, signal);
   return shell('inicio', node('div', { class: 'home-grid' },
     node('div', { class: 'dashboard-main' },
-      node('header', { class: 'home-header' }, heading(`Olá, ${profile.nome.trim().split(/\s+/)[0]}`)),
-      weeklyNews(news), dashboardCourses(courses)),
+      node('header', { class: 'home-header' }, greeting), weeklyNews(news), courses),
     node('aside', { class: 'dashboard-side', 'aria-label': 'Perfil e calendário' },
-      dashboardProfile(profile), studyCalendar(today, signal), dashboardDates(news, today))));
+      profile, studyCalendar(today, signal), dashboardDates(news, today))));
 }
 
 async function trails({ signal }) {
