@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: fatecanos-academy
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: DB_URL
+        sync: false
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: INIT_CATALOG
+        value: "true"
+      - key: SERVER_SERVLET_SESSION_COOKIE_SECURE
+        value: "true"
+      - key: SPRING_DATASOURCE_HIKARI_MAXIMUM_POOL_SIZE
+        value: "3"
+      - key: SPRING_DATASOURCE_HIKARI_MINIMUM_IDLE
+        value: "1"
+      - key: JAVA_TOOL_OPTIONS
+        value: "-XX:+UseSerialGC -XX:ActiveProcessorCount=1 -XX:MaxRAMPercentage=50"

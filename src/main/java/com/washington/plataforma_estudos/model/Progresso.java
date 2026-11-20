@@ -6,7 +6,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.Instant;
 import java.time.LocalDateTime;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "progressos",
@@ -24,6 +27,15 @@ public class Progresso {
     private Boolean concluido = false;
 
     private LocalDateTime dataConclusao;
+
+    private Instant ultimoAcesso;
+
+    @ElementCollection
+    @CollectionTable(name = "aulas_concluidas", joinColumns = @JoinColumn(name = "progresso_id"),
+            uniqueConstraints = @UniqueConstraint(columnNames = {"progresso_id", "aula_id"}))
+    @Column(name = "aula_id", nullable = false, length = 11)
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+    private Set<String> aulasConcluidas = new HashSet<>();
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "usuario_id", nullable = false)

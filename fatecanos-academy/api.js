@@ -31,7 +31,7 @@ export function isSignedIn() {
   return session !== null;
 }
 
-async function request(path, { method = 'GET', body, signal, token } = {}) {
+async function request(path, { method = 'GET', body, signal, token, credentials = 'omit' } = {}) {
   const headers = new Headers({ Accept: 'application/json' });
   if (body !== undefined) headers.set('Content-Type', 'application/json');
   if (token) headers.set('Authorization', `Bearer ${token}`);
@@ -39,12 +39,31 @@ async function request(path, { method = 'GET', body, signal, token } = {}) {
   try {
     return await fetch(`${apiOrigin}${path}`, {
       method, headers, signal, body: JSON.stringify(body),
-      cache: 'no-store', credentials: 'omit', redirect: 'error',
+      cache: 'no-store', credentials, redirect: 'error',
     });
   } catch (error) {
     if (error.name === 'AbortError') throw error;
     throw new ApiError('Não foi possível conectar à API. Confira se o servidor Java está rodando.');
   }
+}
+
+export async function googleSignInAvailable(signal) {
+  if (apiOrigin !== location.origin) return false;
+  try {
+    return (await api('/auth/metodos', { publicRoute: true, signal }))?.google === true;
+  } catch {
+    return false;
+  }
+}
+
+export async function finishGoogleSignIn(signal) {
+  const message = 'Não foi possível entrar com Google. Tente novamente.';
+  if (apiOrigin !== location.origin) throw new ApiError(message);
+  const response = await request('/auth/google/session', {
+    method: 'POST', body: {}, credentials: 'same-origin', signal,
+  });
+  if (!response.ok) throw new ApiError(message, response.status);
+  return response.json();
 }
 
 export async function api(path, { method, body, signal, publicRoute = false } = {}) {
@@ -68,6 +87,12 @@ export async function api(path, { method, body, signal, publicRoute = false } = 
   }
 
   if (!response.ok) {
+    if (publicRoute && path === '/auth/cadastro' && response.status === 409) {
+      const error = await response.json().catch(() => null);
+      if (error?.codigo === 'EMAIL_JA_CADASTRADO') {
+        throw new ApiError('Este e-mail já possui uma conta. Clique em Entrar.', 409);
+      }
+    }
     const messages = {
       400: 'Confira os dados informados e tente novamente.',
       401: 'Entre novamente para continuar.',

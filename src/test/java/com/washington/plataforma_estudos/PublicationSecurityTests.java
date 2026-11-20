@@ -61,6 +61,16 @@ class PublicationSecurityTests {
             var videos = context.getBean(VideoRepository.class);
             var usuarios = context.getBean(UsuarioRepository.class);
             require(trilhas.count() == 19 && videos.count() == 201, "Carga deve gerar 19 jornadas e 201 cursos, sem duplicar");
+            var legada = trilhas.findAll().stream().filter(trilha -> trilha.getNome().equals("GameDev")).findFirst().orElseThrow();
+            var personalizada = trilhas.findAll().stream().filter(trilha -> trilha.getNome().equals("Mobile")).findFirst().orElseThrow();
+            legada.setDescricao("Jornada de GameDev. Referência: Jornada Dev Herói, de DevArthur.");
+            personalizada.setDescricao("Minha descrição personalizada.");
+            trilhas.saveAll(java.util.List.of(legada, personalizada));
+            seeder.run();
+            require(trilhas.findById(legada.getId()).orElseThrow().getDescricao().contains("jogos dos seus sonhos"),
+                    "Descrição antiga deve ser substituída");
+            require(trilhas.findById(personalizada.getId()).orElseThrow().getDescricao().equals("Minha descrição personalizada."),
+                    "Descrição personalizada deve permanecer");
 
             MockMvc mvc = MockMvcBuilders.webAppContextSetup(context).apply(springSecurity()).build();
             status(mvc.perform(get("/health")).andReturn(), 200);
@@ -75,8 +85,13 @@ class PublicationSecurityTests {
             var user = usuarios.findByEmail("one@example.test").orElseThrow();
             require(user.getPapel() == Papel.ALUNO && user.getId() != 999, "Cadastro não pode atribuir ADMIN ou ID informado");
             require(user.getSenha().startsWith("$2"), "Senha deve usar BCrypt");
-            status(mvc.perform(post("/auth/cadastro").contentType("application/json").content(cadastro)).andReturn(), 400);
-            String token = login(mvc, "one@example.test");
+            var duplicated = status(mvc.perform(post("/auth/cadastro").contentType("application/json")
+                    .content(cadastro.replace("one@example.test", "ONE@example.test"))).andReturn(), 409);
+            require("EMAIL_JA_CADASTRADO".equals(JSON.readTree(duplicated.getResponse().getContentAsString())
+                    .path("codigo").asText()), "Cadastro duplicado deve informar o motivo do conflito");
+            String token = JSON.readTree(created.getResponse().getContentAsString()).path("token").asText();
+            require(!token.isBlank(), "Cadastro deve gerar uma sessão");
+            status(mvc.perform(get("/usuarios/me").header("Authorization", "Bearer " + token)).andReturn(), 200);
             status(mvc.perform(get("/trilhas").header("Authorization", "Bearer " + token)).andReturn(), 200);
             for (String route : new String[]{"/trilhas", "/modulos", "/videos"}) {
                 status(mvc.perform(post(route).header("Authorization", "Bearer " + token)
@@ -87,7 +102,17 @@ class PublicationSecurityTests {
             status(mvc.perform(post("/auth/cadastro").contentType("application/json").content(second)).andReturn(), 200);
             String secondToken = login(mvc, "two@example.test");
             int videoId = videos.findAll().getFirst().getId();
+            status(mvc.perform(post("/progresso/video/" + videoId + "/iniciar").header("Authorization", "Bearer " + token)).andReturn(), 204);
+            var active = status(mvc.perform(get("/progresso/em-andamento").header("Authorization", "Bearer " + token)).andReturn(), 200);
+            var course = JSON.readTree(active.getResponse().getContentAsString()).get(0);
+            require(course != null && course.get("videoId").asInt() == videoId && course.get("trilhaId").asInt() > 0,
+                    "Início deve listar o curso aberto com o link para retomada");
+            var otherActive = status(mvc.perform(get("/progresso/em-andamento").header("Authorization", "Bearer " + secondToken)).andReturn(), 200);
+            require(JSON.readTree(otherActive.getResponse().getContentAsString()).isEmpty(),
+                    "Cursos iniciados devem ficar isolados por usuário");
             status(mvc.perform(post("/progresso/video/" + videoId + "/concluir").header("Authorization", "Bearer " + token)).andReturn(), 200);
+            var finished = status(mvc.perform(get("/progresso/em-andamento").header("Authorization", "Bearer " + token)).andReturn(), 200);
+            require(JSON.readTree(finished.getResponse().getContentAsString()).isEmpty(), "Curso concluído deve sair da lista de retomada");
             var own = status(mvc.perform(get("/progresso/concluidos").header("Authorization", "Bearer " + token)).andReturn(), 200);
             var other = status(mvc.perform(get("/progresso/concluidos").header("Authorization", "Bearer " + secondToken)).andReturn(), 200);
             require(JSON.readTree(own.getResponse().getContentAsString()).size() == 1, "Progresso do aluno deve persistir");

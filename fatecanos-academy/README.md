@@ -15,7 +15,7 @@ Front-end em HTML, CSS e JavaScript para a plataforma de estudos. O Spring serve
 | Cadastro e login | `POST /auth/cadastro` e `POST /auth/login` |
 | Catálogo | `GET /trilhas` |
 | Trilha e módulos | `GET /trilhas/{id}`, `GET /modulos/trilha/{id}`, `GET /videos/trilha/{id}/introducao` e `GET /videos/modulo/{id}` |
-| Progresso | `GET /progresso/concluidos` e `POST /progresso/video/{id}/concluir` |
+| Progresso | `GET /progresso/concluidos`, `POST /progresso/video/{id}/concluir`, `GET /progresso/video/{id}/aulas` e `PUT /progresso/video/{id}/aulas/{aulaId}` |
 | Comunidade | `GET /creditos` |
 | Perfil | `GET /usuarios/me` e `PUT /usuarios/me` |
 
@@ -30,10 +30,12 @@ Sirva o front e a API juntos pelo Spring em um endereço HTTPS. O `api.js` usa a
 
 ## Catálogo de jornadas
 
+O Início traz notícias, cursos em andamento, perfil e calendário. Em `editorial.js`, liste as notícias na ordem do carrossel com título, tópico, resumo, data de publicação no formato `AAAA-MM-DD`, fonte, link e texto do botão. O carrossel mostra as notícias da semana a partir da segunda-feira e aceita uma data final opcional em `until` para avisos que precisam continuar visíveis. Para uma notícia também aparecer em Próximas datas, inclua `event` com `date` e `label`.
+
 19 jornadas de carreira, na ordem da referência, começando em Back End. São 201 cursos/materiais e 146 links distintos. Os percursos acadêmicos não foram importados. Consulte `CATALOGO-DE-CURSOS.txt` e `catalogo-jornadas.json`. A relação com os IDs persistidos no Java está em `importacao-jornadas.json`.
 
-Playlists usam o player incorporado do YouTube; a lista de aulas fica na lateral da página, com seleção direta e botões para aula anterior/próxima. O botão **Concluir curso** registra a conclusão da playlist/curso inteiro. Não há acompanhamento automático de cada vídeo nem retomada do minuto assistido. Materiais fora do YouTube abrem no site do autor, com identificação na interface.
+Playlists com aulas catalogadas mostram a lista ao lado do player. **Concluir aula** salva cada aula na conta. Ao voltar ao curso, a página abre na primeira aula pendente. Em playlists com a lista completa, a última conclusão encerra o curso automaticamente. Materiais fora do YouTube abrem no site do autor.
 
-`media.js` valida URLs, e `course-sources.js` registra a ordem e os metadados conferidos. Atualize a página depois de alterar os arquivos. `playlist-lessons.js` contém os títulos e IDs públicos das aulas, sem baixar os vídeos.
+`media.js` valida URLs, e `course-sources.js` registra a ordem e os metadados conferidos. O front e a API usam os mesmos títulos e IDs públicos em `playlist-lessons.json`.
 
 Para iniciar o front sem VS Code, execute `iniciar-front.cmd` nesta pasta (requer o Node.js já instalado). O servidor local usa http://127.0.0.1:5500 e fica ativo enquanto a janela estiver aberta. Se a porta já estiver em uso, abra o endereço existente. O Java permanece iniciado pelo IntelliJ.

@@ -43,6 +43,10 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security-oauth2-client</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 		<dependency>
@@ -114,7 +118,9 @@
 				<includes>
 					<include>index.html</include><include>styles.css</include><include>computador.svg</include>
 					<include>app.js</include><include>api.js</include><include>media.js</include>
-					<include>course-sources.js</include><include>playlist-lessons.js</include>
+					<include>course-sources.js</include><include>playlist-lessons.json</include><include>editorial.js</include>
+					<include>assets/cariby-ideathon.jpg</include>
+					<include>assets/washington-junior.jpg</include>
 				</includes>
 			</resource>
 			<resource>

@@ -5,6 +5,7 @@
     {
       "id": "backend",
       "name": "Back End",
+      "description": "Construa APIs, domine bancos de dados e dê vida à lógica por trás das aplicações.",
       "order": 1,
       "courses": [
         {
@@ -76,6 +77,7 @@
     {
       "id": "frontend",
       "name": "Front End",
+      "description": "Crie interfaces que respondem bem, interagem com as pessoas e funcionam em diferentes telas.",
       "order": 2,
       "courses": [
         {
@@ -155,6 +157,7 @@
     {
       "id": "fullstack",
       "name": "Full Stack",
+      "description": "Conecte interface, API e banco de dados para entregar uma aplicação completa.",
       "order": 3,
       "courses": [
         {
@@ -242,6 +245,7 @@
     {
       "id": "datascience",
       "name": "Ciência de Dados",
+      "description": "Explore dados, descubra padrões e transforme suas análises em decisões.",
       "order": 4,
       "courses": [
         {
@@ -329,6 +333,7 @@
     {
       "id": "ai",
       "name": "Inteligência Artificial",
+      "description": "Da exploração dos dados ao uso de modelos: aprenda a construir soluções com inteligência artificial.",
       "order": 5,
       "courses": [
         {
@@ -400,6 +405,7 @@
     {
       "id": "advanced",
       "name": "Avançado",
+      "description": "Aprofunde sua base e encare sistemas mais complexos com boas decisões de arquitetura.",
       "order": 6,
       "courses": [
         {
@@ -487,6 +493,7 @@
     {
       "id": "math",
       "name": "O Louco Matemático",
+      "description": "Use lógica, probabilidade e matemática para resolver problemas de programação.",
       "order": 7,
       "courses": [
         {
@@ -574,6 +581,7 @@
     {
       "id": "security",
       "name": "GameDev",
+      "description": "Tire ideias do papel e crie os jogos dos seus sonhos, do protótipo à primeira versão jogável.",
       "order": 8,
       "courses": [
         {
@@ -661,6 +669,7 @@
     {
       "id": "hacker",
       "name": "Hacker",
+      "description": "Aprenda a pensar como um hacker ético e a testar a segurança de sistemas com autorização.",
       "order": 9,
       "courses": [
         {
@@ -740,6 +749,7 @@
     {
       "id": "devops",
       "name": "DevOps",
+      "description": "Automatize a entrega de software e mantenha aplicações funcionando com confiança.",
       "order": 10,
       "courses": [
         {
@@ -835,6 +845,7 @@
     {
       "id": "cyber",
       "name": "CyberSecurity",
+      "description": "Proteja dados e sistemas, entenda riscos e pratique como detectar e responder a incidentes.",
       "order": 11,
       "courses": [
         {
@@ -962,6 +973,7 @@
     {
       "id": "embarcados",
       "name": "Embarcados",
+      "description": "Programe perto do hardware e crie soluções com sensores e microcontroladores.",
       "order": 12,
       "courses": [
         {
@@ -1081,6 +1093,7 @@
     {
       "id": "automation",
       "name": "Automação",
+      "description": "Transforme tarefas repetitivas em rotinas que rodam sozinhas e economizam tempo.",
       "order": 13,
       "courses": [
         {
@@ -1160,6 +1173,7 @@
     {
       "id": "data-engineering",
       "name": "Eng. de Dados",
+      "description": "Construa pipelines para coletar, transformar e disponibilizar dados confiáveis.",
       "order": 14,
       "courses": [
         {
@@ -1279,6 +1293,7 @@
     {
       "id": "blockchain",
       "name": "Blockchain",
+      "description": "Entenda redes descentralizadas e desenvolva aplicações com contratos inteligentes.",
       "order": 15,
       "courses": [
         {
@@ -1382,6 +1397,7 @@
     {
       "id": "qa",
       "name": "QA",
+      "description": "Encontre problemas cedo e use testes para entregar software com mais qualidade.",
       "order": 16,
       "courses": [
         {
@@ -1493,6 +1509,7 @@
     {
       "id": "uiux",
       "name": "UI / UX",
+      "description": "Entenda quem usa o produto e desenhe experiências claras, acessíveis e fáceis de usar.",
       "order": 17,
       "courses": [
         {
@@ -1540,6 +1557,7 @@
     {
       "id": "cloud",
       "name": "Cloud",
+      "description": "Publique e opere aplicações na nuvem com segurança e capacidade de crescer.",
       "order": 18,
       "courses": [
         {
@@ -1643,6 +1661,7 @@
     {
       "id": "mobile",
       "name": "Mobile",
+      "description": "Crie aplicativos para celulares que funcionam bem no dia a dia.",
       "order": 19,
       "courses": [
         {
