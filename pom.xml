@@ -120,6 +120,7 @@
 					<include>app.js</include><include>api.js</include><include>media.js</include>
 					<include>course-sources.js</include><include>playlist-lessons.json</include><include>editorial.js</include>
 					<include>assets/cariby-ideathon.jpg</include>
+					<include>assets/favicon.png</include>
 					<include>assets/washington-junior.jpg</include>
 				</includes>
 			</resource>

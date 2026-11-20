@@ -7,6 +7,7 @@ const files = new Map([
   ['/playlist-lessons.json', ['playlist-lessons.json', 'application/json']],
   ['/styles.css', ['styles.css', 'text/css']],
   ['/computador.svg', ['computador.svg', 'image/svg+xml']],
+  ['/assets/favicon.png', ['assets/favicon.png', 'image/png']],
   ['/assets/cariby-ideathon.jpg', ['assets/cariby-ideathon.jpg', 'image/jpeg']],
   ['/assets/washington-junior.jpg', ['assets/washington-junior.jpg', 'image/jpeg']],
 ]);

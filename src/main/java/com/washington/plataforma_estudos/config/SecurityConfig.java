@@ -69,11 +69,11 @@ public class SecurityConfig {
                 .authorizeHttpRequests(auth -> auth
                         .dispatcherTypeMatchers(jakarta.servlet.DispatcherType.ERROR).permitAll()
                         .requestMatchers(HttpMethod.GET, "/", "/index.html", "/styles.css", "/computador.svg",
-                                "/assets/cariby-ideathon.jpg", "/assets/washington-junior.jpg",
+                                "/assets/cariby-ideathon.jpg", "/assets/favicon.png", "/assets/washington-junior.jpg",
                                 "/app.js", "/api.js", "/media.js", "/course-sources.js", "/playlist-lessons.json", "/editorial.js", "/health",
                                 "/auth/metodos").permitAll()
                         .requestMatchers(HttpMethod.HEAD, "/", "/index.html", "/styles.css", "/computador.svg",
-                                "/assets/cariby-ideathon.jpg", "/assets/washington-junior.jpg",
+                                "/assets/cariby-ideathon.jpg", "/assets/favicon.png", "/assets/washington-junior.jpg",
                                 "/app.js", "/api.js", "/media.js", "/course-sources.js", "/playlist-lessons.json", "/editorial.js", "/health").permitAll()
                         .requestMatchers(HttpMethod.POST, "/auth/login", "/auth/cadastro").permitAll()
                         .requestMatchers("/admin/**", "/trilhas/admin/**").hasRole("ADMIN")
