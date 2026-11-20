@@ -1,6 +1,6 @@
 # Fatecanos Academy
 
-Front-end em HTML, CSS e JavaScript para a plataforma de estudos. A interface usa as rotas do projeto `plataforma-estudos` em `http://localhost:8085`.
+Front-end em HTML, CSS e JavaScript para a plataforma de estudos. O Spring serve a interface e a API no mesmo endereço. Em desenvolvimento, o front na porta 5500 chama a API em `http://localhost:8085`.
 
 ## Rodar no Windows
 
@@ -25,8 +25,7 @@ O token vive na memória da página. Atualizar a aba encerra a sessão local. O 
 
 ## Antes de publicar
 
-- Limite os `POST` de `/trilhas`, `/modulos` e `/videos` a administradores no Spring Security. A regra precisa vir antes de `.anyRequest().authenticated()`. Verifique as permissões usando contas de teste `ALUNO` e `ADMIN`.
-- Configure o domínio HTTPS da API em `api.js` e em `connect-src` no `index.html` e no `_headers`. No CORS do Java, autorize o domínio HTTPS exato do front. Mantenha os segredos no ambiente do servidor Java.
+Sirva o front e a API juntos pelo Spring em um endereço HTTPS. O `api.js` usa a origem da página e o Spring restringe a escrita do catálogo ao papel `ADMIN`. Configure os segredos no ambiente do servidor Java.
 
 
 ## Catálogo de jornadas
@@ -35,6 +34,6 @@ O token vive na memória da página. Atualizar a aba encerra a sessão local. O 
 
 Playlists usam o player incorporado do YouTube; a lista de aulas fica na lateral da página, com seleção direta e botões para aula anterior/próxima. O botão **Concluir curso** registra a conclusão da playlist/curso inteiro. Não há acompanhamento automático de cada vídeo nem retomada do minuto assistido. Materiais fora do YouTube abrem no site do autor, com identificação na interface.
 
-`media.js` valida URLs, e `course-sources.js` registra a ordem e os metadados conferidos. `api.js` continua consumindo o Java em 8085. Atualize a página depois de alterar os arquivos. `playlist-lessons.js` contém os títulos e IDs públicos das aulas, sem baixar os vídeos.
+`media.js` valida URLs, e `course-sources.js` registra a ordem e os metadados conferidos. Atualize a página depois de alterar os arquivos. `playlist-lessons.js` contém os títulos e IDs públicos das aulas, sem baixar os vídeos.
 
 Para iniciar o front sem VS Code, execute `iniciar-front.cmd` nesta pasta (requer o Node.js já instalado). O servidor local usa http://127.0.0.1:5500 e fica ativo enquanto a janela estiver aberta. Se a porta já estiver em uso, abra o endereço existente. O Java permanece iniciado pelo IntelliJ.

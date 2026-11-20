@@ -21,7 +21,7 @@ public class JwtService {
     private static final long EXPIRACAO_MS = 1000 * 60 * 60 * 10;
 
     private SecretKey getChave(){
-        return Keys.hmacShaKeyFor(jwtSecret.getBytes());
+        return Keys.hmacShaKeyFor(jwtSecret.getBytes(java.nio.charset.StandardCharsets.UTF_8));
     }
 
     public String gerarToken(String email){

@@ -2,6 +2,7 @@ package com.washington.plataforma_estudos.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
@@ -54,9 +55,29 @@ public class SecurityConfig {
                 .cors(Customizer.withDefaults())
                 .csrf(AbstractHttpConfigurer::disable)
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+                .exceptionHandling(errors -> errors
+                        .authenticationEntryPoint((request, response, exception) -> {
+                            response.setStatus(401);
+                            response.setContentType("application/json;charset=UTF-8");
+                            response.getWriter().write("{\"erro\":\"Autenticação necessária.\"}");
+                        })
+                        .accessDeniedHandler((request, response, exception) -> {
+                            response.setStatus(403);
+                            response.setContentType("application/json;charset=UTF-8");
+                            response.getWriter().write("{\"erro\":\"Acesso não autorizado.\"}");
+                        }))
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/auth/**").permitAll()
-                        .requestMatchers("/admin/**").hasRole("ADMIN")
+                        .dispatcherTypeMatchers(jakarta.servlet.DispatcherType.ERROR).permitAll()
+                        .requestMatchers(HttpMethod.GET, "/", "/index.html", "/styles.css", "/computador.svg",
+                                "/app.js", "/api.js", "/media.js", "/course-sources.js", "/playlist-lessons.js", "/health").permitAll()
+                        .requestMatchers(HttpMethod.HEAD, "/", "/index.html", "/styles.css", "/computador.svg",
+                                "/app.js", "/api.js", "/media.js", "/course-sources.js", "/playlist-lessons.js", "/health").permitAll()
+                        .requestMatchers(HttpMethod.POST, "/auth/login", "/auth/cadastro").permitAll()
+                        .requestMatchers("/admin/**", "/trilhas/admin/**").hasRole("ADMIN")
+                        .requestMatchers(HttpMethod.POST, "/trilhas", "/trilhas/**", "/modulos", "/modulos/**", "/videos", "/videos/**").hasRole("ADMIN")
+                        .requestMatchers(HttpMethod.PUT, "/trilhas/**", "/modulos/**", "/videos/**").hasRole("ADMIN")
+                        .requestMatchers(HttpMethod.PATCH, "/trilhas/**", "/modulos/**", "/videos/**").hasRole("ADMIN")
+                        .requestMatchers(HttpMethod.DELETE, "/trilhas/**", "/modulos/**", "/videos/**").hasRole("ADMIN")
                         .anyRequest().authenticated()
                 )
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);

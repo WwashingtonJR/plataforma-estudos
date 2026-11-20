@@ -8,19 +8,23 @@ O catálogo de referência reúne 19 jornadas de carreira e 201 cursos/materiais
 1. Instale Java 21 ou superior, PostgreSQL e Node.js 22 ou superior.
 2. Crie o banco `plataforma_estudos` e configure `DB_PASSWORD` e `JWT_SECRET` no ambiente de execução do Java. Use uma chave JWT aleatória de pelo menos 32 bytes; não versione os valores.
 3. Inicie `PlataformaEstudosApplication` pelo IntelliJ, ou execute `mvnw.cmd spring-boot:run` no Windows. A API usa a porta 8085.
-4. Execute `fatecanos-academy/iniciar-front.cmd` e abra http://127.0.0.1:5500/.
+4. Abra http://localhost:8085/ para acessar o front servido pelo Spring. Durante o desenvolvimento do front, também é possível executar `fatecanos-academy/iniciar-front.cmd` e abrir http://127.0.0.1:5500/.
 5. Cadastre sua conta pela interface.
 
-O banco de dados local e as contas não são enviados ao GitHub. Um banco novo começa sem as trilhas cadastradas. `fatecanos-academy/catalogo-jornadas.json` contém o catálogo de referência; `importacao-jornadas.json` documenta os IDs da importação local, que não devem ser presumidos em outro banco.
+Em um banco vazio, inicie o Java com `INIT_CATALOG=true` para carregar as jornadas de `fatecanos-academy/catalogo-jornadas.json`. Depois da primeira carga, desative a opção. O arquivo `importacao-jornadas.json` registra IDs de uma importação local. Cada banco gera seus próprios IDs.
 
 ## Testes
 
 Execute `node tests/frontend.test.mjs` para verificar os fluxos do front com API simulada: cadastro, login, perfil, progresso, navegação de aulas e validação de URLs. O teste não reproduz vídeos nem substitui uma conferência no navegador.
 
-O GitHub Actions executa os testes do front e `mvn verify` do back-end com PostgreSQL descartável. As credenciais declaradas no workflow são exclusivas desse banco temporário. O teste atual do Java verifica a inicialização do contexto; não representa cobertura completa das regras da API.
+No Windows, execute `.\mvnw.cmd verify` para rodar os testes do back-end e empacotar a aplicação. No Linux ou macOS, use `./mvnw verify`. Os testes usam H2 em memória por padrão e verificam a inicialização do Spring, a carga do catálogo, cadastro, autenticação, permissões e isolamento do progresso.
+
+O GitHub Actions também verifica a inicialização com PostgreSQL descartável. Para repetir essa verificação localmente, defina `TEST_DB_URL` no formato `jdbc:postgresql://127.0.0.1:<porta>/plataforma_estudos_test` e forneça `TEST_DB_USER` e `TEST_DB_PASSWORD` exclusivos do teste. O teste recria o esquema nesse banco. A suíte de API continua em H2.
+
+Com Docker em modo Linux e Node.js 22 ou superior, execute `node tests/docker-smoke.mjs` na raiz. O teste constrói a imagem, inicia um PostgreSQL 18 descartável sem publicar a porta do banco e confere a API, o catálogo e o progresso após reiniciar a aplicação. O GitHub Actions usa o mesmo comando.
 
 ## Antes de disponibilizar na internet
 
-Enviar código ao GitHub não hospeda a aplicação. Configure API, banco e front em serviços de hospedagem, HTTPS, CORS e variáveis de ambiente. Antes de expor a API, restrinja as operações de criação de trilhas, módulos e vídeos a administradores. Essa restrição ainda é pendente na configuração atual.
+Hospede a aplicação Spring, que serve o front e a API na mesma origem, com HTTPS e um PostgreSQL configurado por variáveis de ambiente. Use `.env.example` como referência dos nomes. A criação de trilhas, módulos e vídeos exige o papel `ADMIN`.
 
 Veja [a documentação do front](fatecanos-academy/README.md) para rotas, playlists e limitações do progresso.

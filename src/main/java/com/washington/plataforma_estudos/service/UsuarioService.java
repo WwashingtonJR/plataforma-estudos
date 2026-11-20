@@ -21,6 +21,12 @@ public class UsuarioService {
 // nao tem IA em é tudo na mao kkkk
 
     public Usuario cadastrar(Usuario usuario){
+        if (usuario.getId() != null) {
+            throw new IllegalArgumentException("Cadastro inválido.");
+        }
+        if (usuario.getSenha() == null || usuario.getSenha().getBytes(java.nio.charset.StandardCharsets.UTF_8).length > 72) {
+            throw new IllegalArgumentException("Senha inválida.");
+        }
         if (usuarioRepository.existsByEmail(usuario.getEmail())){
             throw new IllegalArgumentException("Já existe um usuário cadastrado com este email.");
         }

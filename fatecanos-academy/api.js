@@ -1,4 +1,7 @@
-const apiOrigin = 'http://localhost:8085';
+// Live Server no desenvolvimento; no deploy, o Java serve front e API juntos.
+const apiOrigin = ['localhost', '127.0.0.1'].includes(location.hostname) && location.port === '5500'
+  ? 'http://localhost:8085'
+  : location.origin;
 let session = null;
 let sessionExpired = () => {};
 

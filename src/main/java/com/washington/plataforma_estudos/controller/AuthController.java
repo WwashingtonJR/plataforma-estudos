@@ -1,6 +1,9 @@
 package com.washington.plataforma_estudos.controller;
 
 import com.washington.plataforma_estudos.model.Usuario;
+import com.washington.plataforma_estudos.dto.CadastroRequest;
+import com.washington.plataforma_estudos.dto.LoginRequest;
+import jakarta.validation.Valid;
 import com.washington.plataforma_estudos.service.JwtService;
 import com.washington.plataforma_estudos.service.UsuarioService;
 import org.springframework.http.HttpStatus;
@@ -26,14 +29,19 @@ public class AuthController {
     }
 
     @PostMapping("/cadastro")
-    public Usuario cadastrar(@RequestBody Usuario usuario) {
+    public Usuario cadastrar(@Valid @RequestBody CadastroRequest dados) {
+        Usuario usuario = new Usuario();
+        usuario.setNome(dados.nome().trim());
+        usuario.setEmail(dados.email().trim());
+        usuario.setSenha(dados.senha());
+        usuario.setInstituicao(dados.instituicao() == null ? null : dados.instituicao().trim());
         return usuarioService.cadastrar(usuario);
     }
 
     @PostMapping("/login")
-    public Map<String, String> login(@RequestBody Map<String, String> dados) {
-        String email = dados.get("email");
-        String senha = dados.get("senha");
+    public Map<String, String> login(@Valid @RequestBody LoginRequest dados) {
+        String email = dados.email().trim();
+        String senha = dados.senha();
 
         Usuario usuario = usuarioService.autenticar(email, senha);
         String token = jwtService.gerarToken(usuario.getEmail());

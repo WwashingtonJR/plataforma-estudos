@@ -1,0 +1,13 @@
+.git
+.idea
+.env*
+target
+*.log
+*.pem
+*.key
+cadastro.json
+login.json
+perfil.json
+trilha.json
+docs
+tests

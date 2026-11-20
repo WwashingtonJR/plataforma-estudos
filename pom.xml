@@ -31,6 +31,9 @@
 	</properties>
 	<dependencies>
 		<dependency>
+			<groupId>com.h2database</groupId><artifactId>h2</artifactId><scope>test</scope>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
@@ -103,6 +106,23 @@
 	</dependencies>
 
 	<build>
+		<resources>
+			<resource><directory>src/main/resources</directory></resource>
+			<resource>
+				<directory>fatecanos-academy</directory>
+				<targetPath>static</targetPath>
+				<includes>
+					<include>index.html</include><include>styles.css</include><include>computador.svg</include>
+					<include>app.js</include><include>api.js</include><include>media.js</include>
+					<include>course-sources.js</include><include>playlist-lessons.js</include>
+				</includes>
+			</resource>
+			<resource>
+				<directory>fatecanos-academy</directory>
+				<targetPath>catalog</targetPath>
+				<includes><include>catalogo-jornadas.json</include></includes>
+			</resource>
+		</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

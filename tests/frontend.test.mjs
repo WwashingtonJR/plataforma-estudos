@@ -32,7 +32,7 @@ let changed;
 let hash = '';
 globalThis.document = { querySelector: () => root, createElement: tag=>new Element(tag) };
 globalThis.window = { addEventListener: (name, callback) => { changed=callback; }, scrollTo() {} };
-globalThis.location = { get hash(){return hash;}, set hash(value){if (hash !== value) {hash=value;queueMicrotask(changed);}} };
+globalThis.location = { hostname:'127.0.0.1', port:'5500', origin:'http://127.0.0.1:5500', get hash(){return hash;}, set hash(value){if (hash !== value) {hash=value;queueMicrotask(changed);}} };
 globalThis.matchMedia = () => ({ matches: true });
 const calls = [];
 let expired = false;

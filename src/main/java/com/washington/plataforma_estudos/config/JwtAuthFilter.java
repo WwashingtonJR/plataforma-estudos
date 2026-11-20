@@ -14,6 +14,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
+import io.jsonwebtoken.JwtException;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
 @Component
 public class JwtAuthFilter extends OncePerRequestFilter {
@@ -39,9 +41,12 @@ public class JwtAuthFilter extends OncePerRequestFilter {
         }
 
         String token = authHeader.substring(7);
-        String email = jwtService.extrairEmail(token);
-
-        if (email != null && SecurityContextHolder.getContext().getAuthentication() == null) {
+        try {
+            String email = jwtService.extrairEmail(token);
+            if (email == null || email.isBlank()) {
+                throw new IllegalArgumentException("Token sem identificação.");
+            }
+            if (SecurityContextHolder.getContext().getAuthentication() == null) {
             UserDetails userDetails = userDetailsService.loadUserByUsername(email);
 
             if (jwtService.tokenValido(token, userDetails.getUsername())) {
@@ -51,6 +56,13 @@ public class JwtAuthFilter extends OncePerRequestFilter {
                 authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
                 SecurityContextHolder.getContext().setAuthentication(authToken);
             }
+            }
+        } catch (JwtException | IllegalArgumentException | UsernameNotFoundException exception) {
+            SecurityContextHolder.clearContext();
+            response.setStatus(401);
+            response.setContentType("application/json;charset=UTF-8");
+            response.getWriter().write("{\"erro\":\"Sessão inválida ou expirada.\"}");
+            return;
         }
 
         filterChain.doFilter(request, response);

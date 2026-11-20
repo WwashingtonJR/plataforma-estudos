@@ -38,6 +38,9 @@ public class UsuarioController {
         }
 
         Usuario usuario = usuarioLogado(authentication);
+        if (dados.instituicao() != null && dados.instituicao().length() > 255) {
+            throw new IllegalArgumentException("Instituição inválida.");
+        }
         usuario.setNome(dados.nome().trim());
         usuario.setInstituicao(dados.instituicao() == null ? null : dados.instituicao().trim());
 
