@@ -73,9 +73,13 @@ try {
     '-e', 'DB_URL', '-e', 'DB_USER', '-e', 'DB_PASSWORD', '-e', 'JWT_SECRET',
     '-e', 'INIT_CATALOG', image,
   ]);
-  const address = docker(['port', app, '8085/tcp']);
-  assert.match(address, /^127\.0\.0\.1:\d+$/);
-  const base = 'http://' + address;
+  function appOrigin() {
+    const address = docker(['port', app, '8085/tcp']);
+    assert.match(address, /^127\.0\.0\.1:\d+$/);
+    return 'http://' + address;
+  }
+
+  let base = appOrigin();
 
   async function request(path, expected, { method = 'GET', token, body } = {}) {
     const headers = {};
@@ -136,6 +140,8 @@ try {
   assert.deepEqual(await request('/progresso/concluidos', 200, { token: otherToken }), []);
 
   docker(['restart', app]);
+  // O Docker pode escolher outra porta local ao reiniciar um contêiner com porta publicada dinamicamente.
+  base = appOrigin();
   await waitForApp();
   assert.equal((await request('/trilhas', 200, { token })).length, 19);
   assert.deepEqual(await request('/progresso/concluidos', 200, { token }), [course.id]);
